@@ -30,6 +30,10 @@ void go_fltk_Window_show(Fl_Window *w) {
   w->show();
 }
 
+void go_fltk_Window_iconize(Fl_Window *w) {
+  w->iconize();
+}
+
 int go_fltk_Window_x_root(Fl_Window* w) {
   return w->x_root();
 }
