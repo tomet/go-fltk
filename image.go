@@ -163,6 +163,13 @@ func NewRgbImageFromImage(image goimage.Image) (*RgbImage, error) {
 	return rgbImage, nil
 }
 
+func (img *RgbImage) Copy() *RgbImage {
+	newImg := &RgbImage{}
+	clonedImg := C.go_fltk_image_copy(img.getImage().iPtr)
+	initImage(newImg, unsafe.Pointer(clonedImg))
+	return newImg
+}
+
 type SvgImage struct {
 	RgbImage
 }
