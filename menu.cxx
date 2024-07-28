@@ -28,7 +28,7 @@ int go_fltk_Menu_add_with_icon(Fl_Menu_ *m, char *label, int shortcut, int callb
 	return idx;
 }
 
-void go_fltk_Menu_clear(FL_Menu_ *m) {
+void go_fltk_Menu_clear(Fl_Menu_ *m) {
 	m->clear();
 }
 
