@@ -28,6 +28,10 @@ int go_fltk_Menu_add_with_icon(Fl_Menu_ *m, char *label, int shortcut, int callb
 	return idx;
 }
 
+void go_fltk_Menu_clear(FL_Menu_ *m) {
+	m->clear();
+}
+
 int go_fltk_Menu_insert(Fl_Menu_ *m, int index, char *label, int shortcut, int callback, int flags) {
   return m->insert(index, label, shortcut, callback_handler, (void*)(uintptr_t)callback, flags);
 }
