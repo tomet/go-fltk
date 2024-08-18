@@ -59,6 +59,15 @@ func (m *menu) AddExWithIcon(label string, shortcut int, callback func(), flags 
 	defer C.free(unsafe.Pointer(labelStr))
 	return int(C.go_fltk_Menu_add_with_icon((*C.Fl_Menu_)(m.ptr()), labelStr, C.int(shortcut), C.int(callbackId), C.int(flags), img.getImage().ptr()))
 }
+func (m *menu) SetIcon(idx int, img Image) {
+	C.go_fltk_Menu_set_icon((*C.Fl_Menu_)(m.ptr()), C.int(idx), img.getImage().ptr())
+}
+func (m *menu) SetFlags(idx, flags int) {
+	C.go_fltk_Menu_set_flags((*C.Fl_Menu_)(m.ptr()), C.int(idx), C.int(flags))
+}
+func (m *menu) GetFlags(idx int) int {
+	return int(C.go_fltk_Menu_get_flags((*C.Fl_Menu_)(m.ptr()), C.int(idx)))
+}
 func (m *menu) Clear() {
 	C.go_fltk_Menu_clear((*C.Fl_Menu_)(m.ptr()))
 }

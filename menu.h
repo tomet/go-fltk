@@ -12,6 +12,10 @@ extern "C" {
 
   extern int go_fltk_Menu_add(Fl_Menu_* m, char* label, int shortcut, int callback, int flags);
   extern int go_fltk_Menu_add_with_icon(Fl_Menu_ *m, char *label, int shortcut, int callback, int flags, Fl_Image *img);
+  extern void go_fltk_Menu_set_icon(Fl_Menu_ *m, int idx, Fl_Image *img);
+  extern void go_fltk_Menu_set_flags(Fl_Menu_ *m, int idx, int flags);
+  extern int go_fltk_Menu_get_flags(Fl_Menu_ *m, int idx);
+			
   extern void go_fltk_Menu_clear(Fl_Menu_ *m);
   extern int go_fltk_Menu_insert(Fl_Menu_* m, int index, char* label, int shortcut, int callback, int flags);
   extern void go_fltk_Menu_remove(Fl_Menu_ *m, int index);

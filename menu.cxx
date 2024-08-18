@@ -28,6 +28,29 @@ int go_fltk_Menu_add_with_icon(Fl_Menu_ *m, char *label, int shortcut, int callb
 	return idx;
 }
 
+void go_fltk_Menu_set_icon(Fl_Menu_ *m, int idx, Fl_Image *img) {
+	Fl_Menu_Item *item = (Fl_Menu_Item*)&(m->menu()[idx]);
+	
+	Fl_Multi_Label *ml = new Fl_Multi_Label;
+	ml->typea = FL_IMAGE_LABEL;
+	ml->labela = (const char*)img;
+	
+	ml->typeb = FL_NORMAL_LABEL;
+	ml->labelb = item->label();
+	
+	ml->label(item);
+}
+
+void go_fltk_Menu_set_flags(Fl_Menu_ *m, int idx, int flags) {
+	Fl_Menu_Item *item = (Fl_Menu_Item*)&(m->menu()[idx]);
+	item->flags = flags;
+}
+
+int go_fltk_Menu_get_flags(Fl_Menu_ *m, int idx) {
+	Fl_Menu_Item *item = (Fl_Menu_Item*)&(m->menu()[idx]);
+	return item->flags;
+}
+
 void go_fltk_Menu_clear(Fl_Menu_ *m) {
 	m->clear();
 }
