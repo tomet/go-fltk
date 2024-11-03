@@ -42,6 +42,21 @@ int go_fltk_Window_y_root(Fl_Window* w) {
   return w->y_root();
 }
 
+void *go_fltk_Window_xid(Fl_Window *w) {
+#if defined(_WIN32)
+  return fl_win32_xid(w);
+#elif defined(__APPLE__)
+  return fl_xid(w);
+#elif defined(__unix__)
+// TODO: Recognize in runtime if we're using Wayland or X11
+#if FLTK_USE_X11
+  return (void*)(uintptr_t)fl_xid(w);
+#elif FLTK_USE_WAYLAND
+  return fl_wl_xid(w);
+#endif
+#endif
+}
+
 void go_fltk_Window_set_xclass(Fl_Window *w, const char *wmclass) {
   w->xclass(wmclass);
 }
