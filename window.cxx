@@ -2,6 +2,7 @@
 
 #include <FL/Fl_Window.H>
 #include <FL/Fl_Double_Window.H>
+#include <FL/platform.H>
 
 #include "event_handler.h"
 
