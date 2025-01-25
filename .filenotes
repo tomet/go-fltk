@@ -1,0 +1,1 @@
+build_fltk.sh|Laedt fltk von github und erzeugt die statischen Libs in build/lib neu.
