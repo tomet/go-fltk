@@ -1,0 +1,2650 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineSystem.cmake:205 (message)"
+      - "CMakeLists.txt:39 (project)"
+    message: |
+      The system is: Linux - 6.12.1-arch1-1 - x86_64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:39 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: /usr/bin/cc 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+      
+      The C compiler identification is GNU, found in:
+        /home/et/gosrc/go-fltk/fltk_build/build/CMakeFiles/3.31.1/CompilerIdC/a.out
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:39 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: /usr/bin/c++ 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+      
+      The CXX compiler identification is GNU, found in:
+        /home/et/gosrc/go-fltk/fltk_build/build/CMakeFiles/3.31.1/CompilerIdCXX/a.out
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "/usr/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:39 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "/home/et/gosrc/go-fltk/fltk_build/build/CMakeFiles/CMakeScratch/TryCompile-xzwLiO"
+      binary: "/home/et/gosrc/go-fltk/fltk_build/build/CMakeFiles/CMakeScratch/TryCompile-xzwLiO"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/home/et/gosrc/go-fltk/fltk_build/build/CMakeFiles/CMakeScratch/TryCompile-xzwLiO'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_f4458/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_f4458.dir/build.make CMakeFiles/cmTC_f4458.dir/build
+        make[1]: Entering directory '/home/et/Dropbox/Source/go/src/go-fltk/fltk_build/build/CMakeFiles/CMakeScratch/TryCompile-xzwLiO'
+        Building C object CMakeFiles/cmTC_f4458.dir/CMakeCCompilerABI.c.o
+        /usr/bin/cc   -v -o CMakeFiles/cmTC_f4458.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake/Modules/CMakeCCompilerABI.c
+        Using built-in specs.
+        COLLECT_GCC=/usr/bin/cc
+        Target: x86_64-pc-linux-gnu
+        Configured with: /build/gcc/src/gcc/configure --enable-languages=ada,c,c++,d,fortran,go,lto,m2,objc,obj-c++,rust --enable-bootstrap --prefix=/usr --libdir=/usr/lib --libexecdir=/usr/lib --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=https://gitlab.archlinux.org/archlinux/packaging/packages/gcc/-/issues --with-build-config=bootstrap-lto --with-linker-hash-style=gnu --with-system-zlib --enable-__cxa_atexit --enable-cet=auto --enable-checking=release --enable-clocale=gnu --enable-default-pie --enable-default-ssp --enable-gnu-indirect-function --enable-gnu-unique-object --enable-libstdcxx-backtrace --enable-link-serialization=1 --enable-linker-build-id --enable-lto --enable-multilib --enable-plugin --enable-shared --enable-threads=posix --disable-libssp --disable-libstdcxx-pch --disable-werror
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 14.2.1 20240910 (GCC) 
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_f4458.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_f4458.dir/'
+         /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/cc1 -quiet -v /usr/share/cmake/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_f4458.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -o /tmp/ccYQK1kk.s
+        GNU C17 (GCC) version 14.2.1 20240910 (x86_64-pc-linux-gnu)
+        	compiled by GNU C version 14.2.1 20240910, GMP version 6.3.0, MPFR version 4.2.1, MPC version 1.3.1, isl version isl-0.27-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring nonexistent directory "/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../x86_64-pc-linux-gnu/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include
+         /usr/local/include
+         /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include-fixed
+         /usr/include
+        End of search list.
+        Compiler executable checksum: 91e980a230f7d2e39f93577991713edd
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_f4458.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_f4458.dir/'
+         as -v --64 -o CMakeFiles/cmTC_f4458.dir/CMakeCCompilerABI.c.o /tmp/ccYQK1kk.s
+        GNU assembler version 2.43.0 (x86_64-pc-linux-gnu) using BFD version (GNU Binutils) 2.43.0
+        COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/
+        LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_f4458.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_f4458.dir/CMakeCCompilerABI.c.'
+        Linking C executable cmTC_f4458
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f4458.dir/link.txt --verbose=1
+        Using built-in specs.
+        COLLECT_GCC=/usr/bin/cc
+        COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/lto-wrapper
+        Target: x86_64-pc-linux-gnu
+        Configured with: /build/gcc/src/gcc/configure --enable-languages=ada,c,c++,d,fortran,go,lto,m2,objc,obj-c++,rust --enable-bootstrap --prefix=/usr --libdir=/usr/lib --libexecdir=/usr/lib --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=https://gitlab.archlinux.org/archlinux/packaging/packages/gcc/-/issues --with-build-config=bootstrap-lto --with-linker-hash-style=gnu --with-system-zlib --enable-__cxa_atexit --enable-cet=auto --enable-checking=release --enable-clocale=gnu --enable-default-pie --enable-default-ssp --enable-gnu-indirect-function --enable-gnu-unique-object --enable-libstdcxx-backtrace --enable-link-serialization=1 --enable-linker-build-id --enable-lto --enable-multilib --enable-plugin --enable-shared --enable-threads=posix --disable-libssp --disable-libstdcxx-pch --disable-werror
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 14.2.1 20240910 (GCC) 
+        COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/
+        LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_f4458' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_f4458.'
+         /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccfHpq1B.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_f4458 /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../.. -v CMakeFiles/cmTC_f4458.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib/crtn.o
+        collect2 version 14.2.1 20240910
+        /usr/bin/ld -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccfHpq1B.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_f4458 /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../.. -v CMakeFiles/cmTC_f4458.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib/crtn.o
+        GNU ld (GNU Binutils) 2.43.0
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_f4458' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_f4458.'
+        /usr/bin/cc  -v -Wl,-v CMakeFiles/cmTC_f4458.dir/CMakeCCompilerABI.c.o -o cmTC_f4458
+        make[1]: Leaving directory '/home/et/Dropbox/Source/go/src/go-fltk/fltk_build/build/CMakeFiles/CMakeScratch/TryCompile-xzwLiO'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:182 (message)"
+      - "/usr/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:39 (project)"
+    message: |
+      Parsed C implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include]
+          add: [/usr/local/include]
+          add: [/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include-fixed]
+          add: [/usr/include]
+        end of search list found
+        collapse include dir [/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include] ==> [/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include]
+        collapse include dir [/usr/local/include] ==> [/usr/local/include]
+        collapse include dir [/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include-fixed] ==> [/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include-fixed]
+        collapse include dir [/usr/include] ==> [/usr/include]
+        implicit include dirs: [/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include;/usr/local/include;/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include-fixed;/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
+      - "/usr/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:39 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?))("|,| |$)]
+        ignore line: [Change Dir: '/home/et/gosrc/go-fltk/fltk_build/build/CMakeFiles/CMakeScratch/TryCompile-xzwLiO']
+        ignore line: []
+        ignore line: [Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_f4458/fast]
+        ignore line: [/usr/bin/make  -f CMakeFiles/cmTC_f4458.dir/build.make CMakeFiles/cmTC_f4458.dir/build]
+        ignore line: [make[1]: Entering directory '/home/et/Dropbox/Source/go/src/go-fltk/fltk_build/build/CMakeFiles/CMakeScratch/TryCompile-xzwLiO']
+        ignore line: [Building C object CMakeFiles/cmTC_f4458.dir/CMakeCCompilerABI.c.o]
+        ignore line: [/usr/bin/cc   -v -o CMakeFiles/cmTC_f4458.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake/Modules/CMakeCCompilerABI.c]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/usr/bin/cc]
+        ignore line: [Target: x86_64-pc-linux-gnu]
+        ignore line: [Configured with: /build/gcc/src/gcc/configure --enable-languages=ada c c++ d fortran go lto m2 objc obj-c++ rust --enable-bootstrap --prefix=/usr --libdir=/usr/lib --libexecdir=/usr/lib --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=https://gitlab.archlinux.org/archlinux/packaging/packages/gcc/-/issues --with-build-config=bootstrap-lto --with-linker-hash-style=gnu --with-system-zlib --enable-__cxa_atexit --enable-cet=auto --enable-checking=release --enable-clocale=gnu --enable-default-pie --enable-default-ssp --enable-gnu-indirect-function --enable-gnu-unique-object --enable-libstdcxx-backtrace --enable-link-serialization=1 --enable-linker-build-id --enable-lto --enable-multilib --enable-plugin --enable-shared --enable-threads=posix --disable-libssp --disable-libstdcxx-pch --disable-werror]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 14.2.1 20240910 (GCC) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_f4458.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_f4458.dir/']
+        ignore line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/cc1 -quiet -v /usr/share/cmake/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_f4458.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -o /tmp/ccYQK1kk.s]
+        ignore line: [GNU C17 (GCC) version 14.2.1 20240910 (x86_64-pc-linux-gnu)]
+        ignore line: [	compiled by GNU C version 14.2.1 20240910  GMP version 6.3.0  MPFR version 4.2.1  MPC version 1.3.1  isl version isl-0.27-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../x86_64-pc-linux-gnu/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include]
+        ignore line: [ /usr/local/include]
+        ignore line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include-fixed]
+        ignore line: [ /usr/include]
+        ignore line: [End of search list.]
+        ignore line: [Compiler executable checksum: 91e980a230f7d2e39f93577991713edd]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_f4458.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_f4458.dir/']
+        ignore line: [ as -v --64 -o CMakeFiles/cmTC_f4458.dir/CMakeCCompilerABI.c.o /tmp/ccYQK1kk.s]
+        ignore line: [GNU assembler version 2.43.0 (x86_64-pc-linux-gnu) using BFD version (GNU Binutils) 2.43.0]
+        ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/]
+        ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_f4458.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_f4458.dir/CMakeCCompilerABI.c.']
+        ignore line: [Linking C executable cmTC_f4458]
+        ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f4458.dir/link.txt --verbose=1]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/usr/bin/cc]
+        ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/lto-wrapper]
+        ignore line: [Target: x86_64-pc-linux-gnu]
+        ignore line: [Configured with: /build/gcc/src/gcc/configure --enable-languages=ada c c++ d fortran go lto m2 objc obj-c++ rust --enable-bootstrap --prefix=/usr --libdir=/usr/lib --libexecdir=/usr/lib --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=https://gitlab.archlinux.org/archlinux/packaging/packages/gcc/-/issues --with-build-config=bootstrap-lto --with-linker-hash-style=gnu --with-system-zlib --enable-__cxa_atexit --enable-cet=auto --enable-checking=release --enable-clocale=gnu --enable-default-pie --enable-default-ssp --enable-gnu-indirect-function --enable-gnu-unique-object --enable-libstdcxx-backtrace --enable-link-serialization=1 --enable-linker-build-id --enable-lto --enable-multilib --enable-plugin --enable-shared --enable-threads=posix --disable-libssp --disable-libstdcxx-pch --disable-werror]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 14.2.1 20240910 (GCC) ]
+        ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/]
+        ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_f4458' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_f4458.']
+        link line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccfHpq1B.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_f4458 /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../.. -v CMakeFiles/cmTC_f4458.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib/crtn.o]
+          arg [/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/collect2] ==> ignore
+          arg [-plugin] ==> ignore
+          arg [/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/liblto_plugin.so] ==> ignore
+          arg [-plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/lto-wrapper] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/ccfHpq1B.res] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [--build-id] ==> ignore
+          arg [--eh-frame-hdr] ==> ignore
+          arg [--hash-style=gnu] ==> ignore
+          arg [-m] ==> ignore
+          arg [elf_x86_64] ==> ignore
+          arg [-dynamic-linker] ==> ignore
+          arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+          arg [-pie] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_f4458] ==> ignore
+          arg [/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib/Scrt1.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib/Scrt1.o]
+          arg [/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib/crti.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib/crti.o]
+          arg [/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/crtbeginS.o]
+          arg [-L/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1] ==> dir [/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1]
+          arg [-L/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib]
+          arg [-L/lib/../lib] ==> dir [/lib/../lib]
+          arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+          arg [-L/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../..] ==> dir [/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../..]
+          arg [-v] ==> ignore
+          arg [CMakeFiles/cmTC_f4458.dir/CMakeCCompilerABI.c.o] ==> ignore
+          arg [-lgcc] ==> lib [gcc]
+          arg [--push-state] ==> ignore
+          arg [--as-needed] ==> ignore
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [--pop-state] ==> ignore
+          arg [-lc] ==> lib [c]
+          arg [-lgcc] ==> lib [gcc]
+          arg [--push-state] ==> ignore
+          arg [--as-needed] ==> ignore
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [--pop-state] ==> ignore
+          arg [/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/crtendS.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/crtendS.o]
+          arg [/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib/crtn.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib/crtn.o]
+        ignore line: [collect2 version 14.2.1 20240910]
+        ignore line: [/usr/bin/ld -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccfHpq1B.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_f4458 /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../.. -v CMakeFiles/cmTC_f4458.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib/crtn.o]
+        linker tool for 'C': /usr/bin/ld
+        collapse obj [/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib/Scrt1.o] ==> [/usr/lib/Scrt1.o]
+        collapse obj [/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib/crti.o] ==> [/usr/lib/crti.o]
+        collapse obj [/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib/crtn.o] ==> [/usr/lib/crtn.o]
+        collapse library dir [/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1] ==> [/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1]
+        collapse library dir [/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib] ==> [/usr/lib]
+        collapse library dir [/lib/../lib] ==> [/lib]
+        collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+        collapse library dir [/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../..] ==> [/usr/lib]
+        implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
+        implicit objs: [/usr/lib/Scrt1.o;/usr/lib/crti.o;/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/crtbeginS.o;/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/crtendS.o;/usr/lib/crtn.o]
+        implicit dirs: [/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1;/usr/lib;/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
+      - "/usr/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:39 (project)"
+    message: |
+      Running the C compiler's linker: "/usr/bin/ld" "-v"
+      GNU ld (GNU Binutils) 2.43.0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "/usr/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:39 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "/home/et/gosrc/go-fltk/fltk_build/build/CMakeFiles/CMakeScratch/TryCompile-rsdFhz"
+      binary: "/home/et/gosrc/go-fltk/fltk_build/build/CMakeFiles/CMakeScratch/TryCompile-rsdFhz"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/home/et/gosrc/go-fltk/fltk_build/build/CMakeFiles/CMakeScratch/TryCompile-rsdFhz'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_50e80/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_50e80.dir/build.make CMakeFiles/cmTC_50e80.dir/build
+        make[1]: Entering directory '/home/et/Dropbox/Source/go/src/go-fltk/fltk_build/build/CMakeFiles/CMakeScratch/TryCompile-rsdFhz'
+        Building CXX object CMakeFiles/cmTC_50e80.dir/CMakeCXXCompilerABI.cpp.o
+        /usr/bin/c++   -v -o CMakeFiles/cmTC_50e80.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+        Using built-in specs.
+        COLLECT_GCC=/usr/bin/c++
+        Target: x86_64-pc-linux-gnu
+        Configured with: /build/gcc/src/gcc/configure --enable-languages=ada,c,c++,d,fortran,go,lto,m2,objc,obj-c++,rust --enable-bootstrap --prefix=/usr --libdir=/usr/lib --libexecdir=/usr/lib --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=https://gitlab.archlinux.org/archlinux/packaging/packages/gcc/-/issues --with-build-config=bootstrap-lto --with-linker-hash-style=gnu --with-system-zlib --enable-__cxa_atexit --enable-cet=auto --enable-checking=release --enable-clocale=gnu --enable-default-pie --enable-default-ssp --enable-gnu-indirect-function --enable-gnu-unique-object --enable-libstdcxx-backtrace --enable-link-serialization=1 --enable-linker-build-id --enable-lto --enable-multilib --enable-plugin --enable-shared --enable-threads=posix --disable-libssp --disable-libstdcxx-pch --disable-werror
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 14.2.1 20240910 (GCC) 
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_50e80.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_50e80.dir/'
+         /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/cc1plus -quiet -v -D_GNU_SOURCE /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_50e80.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -o /tmp/ccJ02LCc.s
+        GNU C++17 (GCC) version 14.2.1 20240910 (x86_64-pc-linux-gnu)
+        	compiled by GNU C version 14.2.1 20240910, GMP version 6.3.0, MPFR version 4.2.1, MPC version 1.3.1, isl version isl-0.27-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring nonexistent directory "/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../x86_64-pc-linux-gnu/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../include/c++/14.2.1
+         /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../include/c++/14.2.1/x86_64-pc-linux-gnu
+         /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../include/c++/14.2.1/backward
+         /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include
+         /usr/local/include
+         /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include-fixed
+         /usr/include
+        End of search list.
+        Compiler executable checksum: fce5a105c47978e141f61a441742cadf
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_50e80.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_50e80.dir/'
+         as -v --64 -o CMakeFiles/cmTC_50e80.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccJ02LCc.s
+        GNU assembler version 2.43.0 (x86_64-pc-linux-gnu) using BFD version (GNU Binutils) 2.43.0
+        COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/
+        LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_50e80.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_50e80.dir/CMakeCXXCompilerABI.cpp.'
+        Linking CXX executable cmTC_50e80
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_50e80.dir/link.txt --verbose=1
+        Using built-in specs.
+        COLLECT_GCC=/usr/bin/c++
+        COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/lto-wrapper
+        Target: x86_64-pc-linux-gnu
+        Configured with: /build/gcc/src/gcc/configure --enable-languages=ada,c,c++,d,fortran,go,lto,m2,objc,obj-c++,rust --enable-bootstrap --prefix=/usr --libdir=/usr/lib --libexecdir=/usr/lib --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=https://gitlab.archlinux.org/archlinux/packaging/packages/gcc/-/issues --with-build-config=bootstrap-lto --with-linker-hash-style=gnu --with-system-zlib --enable-__cxa_atexit --enable-cet=auto --enable-checking=release --enable-clocale=gnu --enable-default-pie --enable-default-ssp --enable-gnu-indirect-function --enable-gnu-unique-object --enable-libstdcxx-backtrace --enable-link-serialization=1 --enable-linker-build-id --enable-lto --enable-multilib --enable-plugin --enable-shared --enable-threads=posix --disable-libssp --disable-libstdcxx-pch --disable-werror
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 14.2.1 20240910 (GCC) 
+        COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/
+        LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_50e80' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_50e80.'
+         /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccG3hiqo.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_50e80 /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../.. -v CMakeFiles/cmTC_50e80.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib/crtn.o
+        collect2 version 14.2.1 20240910
+        /usr/bin/ld -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccG3hiqo.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_50e80 /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../.. -v CMakeFiles/cmTC_50e80.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib/crtn.o
+        GNU ld (GNU Binutils) 2.43.0
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_50e80' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_50e80.'
+        /usr/bin/c++  -v -Wl,-v CMakeFiles/cmTC_50e80.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_50e80
+        make[1]: Leaving directory '/home/et/Dropbox/Source/go/src/go-fltk/fltk_build/build/CMakeFiles/CMakeScratch/TryCompile-rsdFhz'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:182 (message)"
+      - "/usr/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:39 (project)"
+    message: |
+      Parsed CXX implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../include/c++/14.2.1]
+          add: [/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../include/c++/14.2.1/x86_64-pc-linux-gnu]
+          add: [/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../include/c++/14.2.1/backward]
+          add: [/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include]
+          add: [/usr/local/include]
+          add: [/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include-fixed]
+          add: [/usr/include]
+        end of search list found
+        collapse include dir [/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../include/c++/14.2.1] ==> [/usr/include/c++/14.2.1]
+        collapse include dir [/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../include/c++/14.2.1/x86_64-pc-linux-gnu] ==> [/usr/include/c++/14.2.1/x86_64-pc-linux-gnu]
+        collapse include dir [/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../include/c++/14.2.1/backward] ==> [/usr/include/c++/14.2.1/backward]
+        collapse include dir [/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include] ==> [/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include]
+        collapse include dir [/usr/local/include] ==> [/usr/local/include]
+        collapse include dir [/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include-fixed] ==> [/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include-fixed]
+        collapse include dir [/usr/include] ==> [/usr/include]
+        implicit include dirs: [/usr/include/c++/14.2.1;/usr/include/c++/14.2.1/x86_64-pc-linux-gnu;/usr/include/c++/14.2.1/backward;/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include;/usr/local/include;/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include-fixed;/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
+      - "/usr/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:39 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?))("|,| |$)]
+        ignore line: [Change Dir: '/home/et/gosrc/go-fltk/fltk_build/build/CMakeFiles/CMakeScratch/TryCompile-rsdFhz']
+        ignore line: []
+        ignore line: [Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_50e80/fast]
+        ignore line: [/usr/bin/make  -f CMakeFiles/cmTC_50e80.dir/build.make CMakeFiles/cmTC_50e80.dir/build]
+        ignore line: [make[1]: Entering directory '/home/et/Dropbox/Source/go/src/go-fltk/fltk_build/build/CMakeFiles/CMakeScratch/TryCompile-rsdFhz']
+        ignore line: [Building CXX object CMakeFiles/cmTC_50e80.dir/CMakeCXXCompilerABI.cpp.o]
+        ignore line: [/usr/bin/c++   -v -o CMakeFiles/cmTC_50e80.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/usr/bin/c++]
+        ignore line: [Target: x86_64-pc-linux-gnu]
+        ignore line: [Configured with: /build/gcc/src/gcc/configure --enable-languages=ada c c++ d fortran go lto m2 objc obj-c++ rust --enable-bootstrap --prefix=/usr --libdir=/usr/lib --libexecdir=/usr/lib --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=https://gitlab.archlinux.org/archlinux/packaging/packages/gcc/-/issues --with-build-config=bootstrap-lto --with-linker-hash-style=gnu --with-system-zlib --enable-__cxa_atexit --enable-cet=auto --enable-checking=release --enable-clocale=gnu --enable-default-pie --enable-default-ssp --enable-gnu-indirect-function --enable-gnu-unique-object --enable-libstdcxx-backtrace --enable-link-serialization=1 --enable-linker-build-id --enable-lto --enable-multilib --enable-plugin --enable-shared --enable-threads=posix --disable-libssp --disable-libstdcxx-pch --disable-werror]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 14.2.1 20240910 (GCC) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_50e80.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_50e80.dir/']
+        ignore line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/cc1plus -quiet -v -D_GNU_SOURCE /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_50e80.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -o /tmp/ccJ02LCc.s]
+        ignore line: [GNU C++17 (GCC) version 14.2.1 20240910 (x86_64-pc-linux-gnu)]
+        ignore line: [	compiled by GNU C version 14.2.1 20240910  GMP version 6.3.0  MPFR version 4.2.1  MPC version 1.3.1  isl version isl-0.27-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../x86_64-pc-linux-gnu/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../include/c++/14.2.1]
+        ignore line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../include/c++/14.2.1/x86_64-pc-linux-gnu]
+        ignore line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../include/c++/14.2.1/backward]
+        ignore line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include]
+        ignore line: [ /usr/local/include]
+        ignore line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include-fixed]
+        ignore line: [ /usr/include]
+        ignore line: [End of search list.]
+        ignore line: [Compiler executable checksum: fce5a105c47978e141f61a441742cadf]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_50e80.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_50e80.dir/']
+        ignore line: [ as -v --64 -o CMakeFiles/cmTC_50e80.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccJ02LCc.s]
+        ignore line: [GNU assembler version 2.43.0 (x86_64-pc-linux-gnu) using BFD version (GNU Binutils) 2.43.0]
+        ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/]
+        ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_50e80.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_50e80.dir/CMakeCXXCompilerABI.cpp.']
+        ignore line: [Linking CXX executable cmTC_50e80]
+        ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_50e80.dir/link.txt --verbose=1]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/usr/bin/c++]
+        ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/lto-wrapper]
+        ignore line: [Target: x86_64-pc-linux-gnu]
+        ignore line: [Configured with: /build/gcc/src/gcc/configure --enable-languages=ada c c++ d fortran go lto m2 objc obj-c++ rust --enable-bootstrap --prefix=/usr --libdir=/usr/lib --libexecdir=/usr/lib --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=https://gitlab.archlinux.org/archlinux/packaging/packages/gcc/-/issues --with-build-config=bootstrap-lto --with-linker-hash-style=gnu --with-system-zlib --enable-__cxa_atexit --enable-cet=auto --enable-checking=release --enable-clocale=gnu --enable-default-pie --enable-default-ssp --enable-gnu-indirect-function --enable-gnu-unique-object --enable-libstdcxx-backtrace --enable-link-serialization=1 --enable-linker-build-id --enable-lto --enable-multilib --enable-plugin --enable-shared --enable-threads=posix --disable-libssp --disable-libstdcxx-pch --disable-werror]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 14.2.1 20240910 (GCC) ]
+        ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/]
+        ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_50e80' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_50e80.']
+        link line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccG3hiqo.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_50e80 /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../.. -v CMakeFiles/cmTC_50e80.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib/crtn.o]
+          arg [/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/collect2] ==> ignore
+          arg [-plugin] ==> ignore
+          arg [/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/liblto_plugin.so] ==> ignore
+          arg [-plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/lto-wrapper] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/ccG3hiqo.res] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [--build-id] ==> ignore
+          arg [--eh-frame-hdr] ==> ignore
+          arg [--hash-style=gnu] ==> ignore
+          arg [-m] ==> ignore
+          arg [elf_x86_64] ==> ignore
+          arg [-dynamic-linker] ==> ignore
+          arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+          arg [-pie] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_50e80] ==> ignore
+          arg [/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib/Scrt1.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib/Scrt1.o]
+          arg [/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib/crti.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib/crti.o]
+          arg [/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/crtbeginS.o]
+          arg [-L/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1] ==> dir [/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1]
+          arg [-L/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib]
+          arg [-L/lib/../lib] ==> dir [/lib/../lib]
+          arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+          arg [-L/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../..] ==> dir [/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../..]
+          arg [-v] ==> ignore
+          arg [CMakeFiles/cmTC_50e80.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [-lstdc++] ==> lib [stdc++]
+          arg [-lm] ==> lib [m]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lc] ==> lib [c]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/crtendS.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/crtendS.o]
+          arg [/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib/crtn.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib/crtn.o]
+        ignore line: [collect2 version 14.2.1 20240910]
+        ignore line: [/usr/bin/ld -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccG3hiqo.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_50e80 /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../.. -v CMakeFiles/cmTC_50e80.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib/crtn.o]
+        linker tool for 'CXX': /usr/bin/ld
+        collapse obj [/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib/Scrt1.o] ==> [/usr/lib/Scrt1.o]
+        collapse obj [/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib/crti.o] ==> [/usr/lib/crti.o]
+        collapse obj [/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib/crtn.o] ==> [/usr/lib/crtn.o]
+        collapse library dir [/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1] ==> [/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1]
+        collapse library dir [/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib] ==> [/usr/lib]
+        collapse library dir [/lib/../lib] ==> [/lib]
+        collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+        collapse library dir [/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../..] ==> [/usr/lib]
+        implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+        implicit objs: [/usr/lib/Scrt1.o;/usr/lib/crti.o;/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/crtbeginS.o;/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/crtendS.o;/usr/lib/crtn.o]
+        implicit dirs: [/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1;/usr/lib;/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
+      - "/usr/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:39 (project)"
+    message: |
+      Running the CXX compiler's linker: "/usr/bin/ld" "-v"
+      GNU ld (GNU Binutils) 2.43.0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CheckIncludeFile.cmake:99 (try_compile)"
+      - "/usr/share/cmake/Modules/CheckTypeSize.cmake:262 (check_include_file)"
+      - "CMake/setup.cmake:181 (CHECK_TYPE_SIZE)"
+      - "CMakeLists.txt:68 (include)"
+    checks:
+      - "Looking for sys/types.h"
+    directories:
+      source: "/home/et/gosrc/go-fltk/fltk_build/build/CMakeFiles/CMakeScratch/TryCompile-sChxml"
+      binary: "/home/et/gosrc/go-fltk/fltk_build/build/CMakeFiles/CMakeScratch/TryCompile-sChxml"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/et/gosrc/go-fltk/fltk_build/fltk/CMake"
+    buildResult:
+      variable: "HAVE_SYS_TYPES_H"
+      cached: true
+      stdout: |
+        Change Dir: '/home/et/gosrc/go-fltk/fltk_build/build/CMakeFiles/CMakeScratch/TryCompile-sChxml'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_5bc4b/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_5bc4b.dir/build.make CMakeFiles/cmTC_5bc4b.dir/build
+        make[1]: Verzeichnis „/home/et/Dropbox/Source/go/src/go-fltk/fltk_build/build/CMakeFiles/CMakeScratch/TryCompile-sChxml“ wird betreten
+        Building C object CMakeFiles/cmTC_5bc4b.dir/CheckIncludeFile.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_5bc4b.dir/CheckIncludeFile.c.o -c /home/et/gosrc/go-fltk/fltk_build/build/CMakeFiles/CMakeScratch/TryCompile-sChxml/CheckIncludeFile.c
+        Linking C executable cmTC_5bc4b
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5bc4b.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_5bc4b.dir/CheckIncludeFile.c.o -o cmTC_5bc4b
+        make[1]: Verzeichnis „/home/et/Dropbox/Source/go/src/go-fltk/fltk_build/build/CMakeFiles/CMakeScratch/TryCompile-sChxml“ wird verlassen
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CheckIncludeFile.cmake:99 (try_compile)"
+      - "/usr/share/cmake/Modules/CheckTypeSize.cmake:263 (check_include_file)"
+      - "CMake/setup.cmake:181 (CHECK_TYPE_SIZE)"
+      - "CMakeLists.txt:68 (include)"
+    checks:
+      - "Looking for stdint.h"
+    directories:
+      source: "/home/et/gosrc/go-fltk/fltk_build/build/CMakeFiles/CMakeScratch/TryCompile-dkhWvu"
+      binary: "/home/et/gosrc/go-fltk/fltk_build/build/CMakeFiles/CMakeScratch/TryCompile-dkhWvu"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/et/gosrc/go-fltk/fltk_build/fltk/CMake"
+    buildResult:
+      variable: "HAVE_STDINT_H"
+      cached: true
+      stdout: |
+        Change Dir: '/home/et/gosrc/go-fltk/fltk_build/build/CMakeFiles/CMakeScratch/TryCompile-dkhWvu'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_9d3e9/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_9d3e9.dir/build.make CMakeFiles/cmTC_9d3e9.dir/build
+        make[1]: Verzeichnis „/home/et/Dropbox/Source/go/src/go-fltk/fltk_build/build/CMakeFiles/CMakeScratch/TryCompile-dkhWvu“ wird betreten
+        Building C object CMakeFiles/cmTC_9d3e9.dir/CheckIncludeFile.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_9d3e9.dir/CheckIncludeFile.c.o -c /home/et/gosrc/go-fltk/fltk_build/build/CMakeFiles/CMakeScratch/TryCompile-dkhWvu/CheckIncludeFile.c
+        Linking C executable cmTC_9d3e9
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9d3e9.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_9d3e9.dir/CheckIncludeFile.c.o -o cmTC_9d3e9
+        make[1]: Verzeichnis „/home/et/Dropbox/Source/go/src/go-fltk/fltk_build/build/CMakeFiles/CMakeScratch/TryCompile-dkhWvu“ wird verlassen
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CheckIncludeFile.cmake:99 (try_compile)"
+      - "/usr/share/cmake/Modules/CheckTypeSize.cmake:264 (check_include_file)"
+      - "CMake/setup.cmake:181 (CHECK_TYPE_SIZE)"
+      - "CMakeLists.txt:68 (include)"
+    checks:
+      - "Looking for stddef.h"
+    directories:
+      source: "/home/et/gosrc/go-fltk/fltk_build/build/CMakeFiles/CMakeScratch/TryCompile-SlyQCf"
+      binary: "/home/et/gosrc/go-fltk/fltk_build/build/CMakeFiles/CMakeScratch/TryCompile-SlyQCf"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/et/gosrc/go-fltk/fltk_build/fltk/CMake"
+    buildResult:
+      variable: "HAVE_STDDEF_H"
+      cached: true
+      stdout: |
+        Change Dir: '/home/et/gosrc/go-fltk/fltk_build/build/CMakeFiles/CMakeScratch/TryCompile-SlyQCf'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_7aaa9/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_7aaa9.dir/build.make CMakeFiles/cmTC_7aaa9.dir/build
+        make[1]: Verzeichnis „/home/et/Dropbox/Source/go/src/go-fltk/fltk_build/build/CMakeFiles/CMakeScratch/TryCompile-SlyQCf“ wird betreten
+        Building C object CMakeFiles/cmTC_7aaa9.dir/CheckIncludeFile.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_7aaa9.dir/CheckIncludeFile.c.o -c /home/et/gosrc/go-fltk/fltk_build/build/CMakeFiles/CMakeScratch/TryCompile-SlyQCf/CheckIncludeFile.c
+        Linking C executable cmTC_7aaa9
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7aaa9.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_7aaa9.dir/CheckIncludeFile.c.o -o cmTC_7aaa9
+        make[1]: Verzeichnis „/home/et/Dropbox/Source/go/src/go-fltk/fltk_build/build/CMakeFiles/CMakeScratch/TryCompile-SlyQCf“ wird verlassen
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CheckTypeSize.cmake:156 (try_compile)"
+      - "/usr/share/cmake/Modules/CheckTypeSize.cmake:283 (__check_type_size_impl)"
+      - "CMake/setup.cmake:181 (CHECK_TYPE_SIZE)"
+      - "CMakeLists.txt:68 (include)"
+    checks:
+      - "Check size of short"
+    directories:
+      source: "/home/et/gosrc/go-fltk/fltk_build/build/CMakeFiles/CMakeScratch/TryCompile-xYyEEM"
+      binary: "/home/et/gosrc/go-fltk/fltk_build/build/CMakeFiles/CMakeScratch/TryCompile-xYyEEM"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/et/gosrc/go-fltk/fltk_build/fltk/CMake"
+    buildResult:
+      variable: "HAVE_SIZEOF_SHORT"
+      cached: true
+      stdout: |
+        Change Dir: '/home/et/gosrc/go-fltk/fltk_build/build/CMakeFiles/CMakeScratch/TryCompile-xYyEEM'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_f615d/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_f615d.dir/build.make CMakeFiles/cmTC_f615d.dir/build
+        make[1]: Verzeichnis „/home/et/Dropbox/Source/go/src/go-fltk/fltk_build/build/CMakeFiles/CMakeScratch/TryCompile-xYyEEM“ wird betreten
+        Building C object CMakeFiles/cmTC_f615d.dir/SIZEOF_SHORT.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_f615d.dir/SIZEOF_SHORT.c.o -c /home/et/gosrc/go-fltk/fltk_build/build/CMakeFiles/CMakeScratch/TryCompile-xYyEEM/SIZEOF_SHORT.c
+        Linking C executable cmTC_f615d
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f615d.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_f615d.dir/SIZEOF_SHORT.c.o -o cmTC_f615d
+        make[1]: Verzeichnis „/home/et/Dropbox/Source/go/src/go-fltk/fltk_build/build/CMakeFiles/CMakeScratch/TryCompile-xYyEEM“ wird verlassen
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CheckTypeSize.cmake:156 (try_compile)"
+      - "/usr/share/cmake/Modules/CheckTypeSize.cmake:283 (__check_type_size_impl)"
+      - "CMake/setup.cmake:182 (CHECK_TYPE_SIZE)"
+      - "CMakeLists.txt:68 (include)"
+    checks:
+      - "Check size of int"
+    directories:
+      source: "/home/et/gosrc/go-fltk/fltk_build/build/CMakeFiles/CMakeScratch/TryCompile-LoO3WF"
+      binary: "/home/et/gosrc/go-fltk/fltk_build/build/CMakeFiles/CMakeScratch/TryCompile-LoO3WF"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/et/gosrc/go-fltk/fltk_build/fltk/CMake"
+    buildResult:
+      variable: "HAVE_SIZEOF_INT"
+      cached: true
+      stdout: |
+        Change Dir: '/home/et/gosrc/go-fltk/fltk_build/build/CMakeFiles/CMakeScratch/TryCompile-LoO3WF'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_00470/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_00470.dir/build.make CMakeFiles/cmTC_00470.dir/build
+        make[1]: Verzeichnis „/home/et/Dropbox/Source/go/src/go-fltk/fltk_build/build/CMakeFiles/CMakeScratch/TryCompile-LoO3WF“ wird betreten
+        Building C object CMakeFiles/cmTC_00470.dir/SIZEOF_INT.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_00470.dir/SIZEOF_INT.c.o -c /home/et/gosrc/go-fltk/fltk_build/build/CMakeFiles/CMakeScratch/TryCompile-LoO3WF/SIZEOF_INT.c
+        Linking C executable cmTC_00470
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_00470.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_00470.dir/SIZEOF_INT.c.o -o cmTC_00470
+        make[1]: Verzeichnis „/home/et/Dropbox/Source/go/src/go-fltk/fltk_build/build/CMakeFiles/CMakeScratch/TryCompile-LoO3WF“ wird verlassen
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CheckTypeSize.cmake:156 (try_compile)"
+      - "/usr/share/cmake/Modules/CheckTypeSize.cmake:283 (__check_type_size_impl)"
+      - "CMake/setup.cmake:183 (CHECK_TYPE_SIZE)"
+      - "CMakeLists.txt:68 (include)"
+    checks:
+      - "Check size of long"
+    directories:
+      source: "/home/et/gosrc/go-fltk/fltk_build/build/CMakeFiles/CMakeScratch/TryCompile-HnC8z2"
+      binary: "/home/et/gosrc/go-fltk/fltk_build/build/CMakeFiles/CMakeScratch/TryCompile-HnC8z2"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/et/gosrc/go-fltk/fltk_build/fltk/CMake"
+    buildResult:
+      variable: "HAVE_SIZEOF_LONG"
+      cached: true
+      stdout: |
+        Change Dir: '/home/et/gosrc/go-fltk/fltk_build/build/CMakeFiles/CMakeScratch/TryCompile-HnC8z2'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_3c325/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_3c325.dir/build.make CMakeFiles/cmTC_3c325.dir/build
+        make[1]: Verzeichnis „/home/et/Dropbox/Source/go/src/go-fltk/fltk_build/build/CMakeFiles/CMakeScratch/TryCompile-HnC8z2“ wird betreten
+        Building C object CMakeFiles/cmTC_3c325.dir/SIZEOF_LONG.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_3c325.dir/SIZEOF_LONG.c.o -c /home/et/gosrc/go-fltk/fltk_build/build/CMakeFiles/CMakeScratch/TryCompile-HnC8z2/SIZEOF_LONG.c
+        Linking C executable cmTC_3c325
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3c325.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_3c325.dir/SIZEOF_LONG.c.o -o cmTC_3c325
+        make[1]: Verzeichnis „/home/et/Dropbox/Source/go/src/go-fltk/fltk_build/build/CMakeFiles/CMakeScratch/TryCompile-HnC8z2“ wird verlassen
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CheckTypeSize.cmake:156 (try_compile)"
+      - "/usr/share/cmake/Modules/CheckTypeSize.cmake:283 (__check_type_size_impl)"
+      - "CMake/setup.cmake:184 (CHECK_TYPE_SIZE)"
+      - "CMakeLists.txt:68 (include)"
+    checks:
+      - "Check size of long long"
+    directories:
+      source: "/home/et/gosrc/go-fltk/fltk_build/build/CMakeFiles/CMakeScratch/TryCompile-U1Jtda"
+      binary: "/home/et/gosrc/go-fltk/fltk_build/build/CMakeFiles/CMakeScratch/TryCompile-U1Jtda"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/et/gosrc/go-fltk/fltk_build/fltk/CMake"
+    buildResult:
+      variable: "HAVE_HAVE_LONG_LONG"
+      cached: true
+      stdout: |
+        Change Dir: '/home/et/gosrc/go-fltk/fltk_build/build/CMakeFiles/CMakeScratch/TryCompile-U1Jtda'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_23eec/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_23eec.dir/build.make CMakeFiles/cmTC_23eec.dir/build
+        make[1]: Verzeichnis „/home/et/Dropbox/Source/go/src/go-fltk/fltk_build/build/CMakeFiles/CMakeScratch/TryCompile-U1Jtda“ wird betreten
+        Building C object CMakeFiles/cmTC_23eec.dir/HAVE_LONG_LONG.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_23eec.dir/HAVE_LONG_LONG.c.o -c /home/et/gosrc/go-fltk/fltk_build/build/CMakeFiles/CMakeScratch/TryCompile-U1Jtda/HAVE_LONG_LONG.c
+        Linking C executable cmTC_23eec
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_23eec.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_23eec.dir/HAVE_LONG_LONG.c.o -o cmTC_23eec
+        make[1]: Verzeichnis „/home/et/Dropbox/Source/go/src/go-fltk/fltk_build/build/CMakeFiles/CMakeScratch/TryCompile-U1Jtda“ wird verlassen
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CheckIncludeFiles.cmake:141 (try_compile)"
+      - "CMake/resources.cmake:34 (check_include_files)"
+      - "CMake/resources.cmake:127 (fl_find_header)"
+      - "CMakeLists.txt:73 (include)"
+    directories:
+      source: "/home/et/gosrc/go-fltk/fltk_build/build/CMakeFiles/CMakeScratch/TryCompile-ss3273"
+      binary: "/home/et/gosrc/go-fltk/fltk_build/build/CMakeFiles/CMakeScratch/TryCompile-ss3273"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/et/gosrc/go-fltk/fltk_build/fltk/CMake"
+    buildResult:
+      variable: "HAVE_ALSA_ASOUNDLIB_H"
+      cached: true
+      stdout: |
+        Change Dir: '/home/et/gosrc/go-fltk/fltk_build/build/CMakeFiles/CMakeScratch/TryCompile-ss3273'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_b1774/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_b1774.dir/build.make CMakeFiles/cmTC_b1774.dir/build
+        make[1]: Verzeichnis „/home/et/Dropbox/Source/go/src/go-fltk/fltk_build/build/CMakeFiles/CMakeScratch/TryCompile-ss3273“ wird betreten
+        Building C object CMakeFiles/cmTC_b1774.dir/HAVE_ALSA_ASOUNDLIB_H.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_b1774.dir/HAVE_ALSA_ASOUNDLIB_H.c.o -c /home/et/gosrc/go-fltk/fltk_build/build/CMakeFiles/CMakeScratch/TryCompile-ss3273/HAVE_ALSA_ASOUNDLIB_H.c
+        Linking C executable cmTC_b1774
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b1774.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_b1774.dir/HAVE_ALSA_ASOUNDLIB_H.c.o -o cmTC_b1774
+        make[1]: Verzeichnis „/home/et/Dropbox/Source/go/src/go-fltk/fltk_build/build/CMakeFiles/CMakeScratch/TryCompile-ss3273“ wird verlassen
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CheckIncludeFiles.cmake:141 (try_compile)"
+      - "CMake/resources.cmake:34 (check_include_files)"
+      - "CMake/resources.cmake:128 (fl_find_header)"
+      - "CMakeLists.txt:73 (include)"
+    directories:
+      source: "/home/et/gosrc/go-fltk/fltk_build/build/CMakeFiles/CMakeScratch/TryCompile-G7TikH"
+      binary: "/home/et/gosrc/go-fltk/fltk_build/build/CMakeFiles/CMakeScratch/TryCompile-G7TikH"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/et/gosrc/go-fltk/fltk_build/fltk/CMake"
+    buildResult:
+      variable: "HAVE_DLFCN_H"
+      cached: true
+      stdout: |
+        Change Dir: '/home/et/gosrc/go-fltk/fltk_build/build/CMakeFiles/CMakeScratch/TryCompile-G7TikH'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_13c59/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_13c59.dir/build.make CMakeFiles/cmTC_13c59.dir/build
+        make[1]: Verzeichnis „/home/et/Dropbox/Source/go/src/go-fltk/fltk_build/build/CMakeFiles/CMakeScratch/TryCompile-G7TikH“ wird betreten
+        Building C object CMakeFiles/cmTC_13c59.dir/HAVE_DLFCN_H.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_13c59.dir/HAVE_DLFCN_H.c.o -c /home/et/gosrc/go-fltk/fltk_build/build/CMakeFiles/CMakeScratch/TryCompile-G7TikH/HAVE_DLFCN_H.c
+        Linking C executable cmTC_13c59
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_13c59.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_13c59.dir/HAVE_DLFCN_H.c.o -o cmTC_13c59
+        make[1]: Verzeichnis „/home/et/Dropbox/Source/go/src/go-fltk/fltk_build/build/CMakeFiles/CMakeScratch/TryCompile-G7TikH“ wird verlassen
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CheckIncludeFiles.cmake:141 (try_compile)"
+      - "CMake/resources.cmake:34 (check_include_files)"
+      - "CMake/resources.cmake:129 (fl_find_header)"
+      - "CMakeLists.txt:73 (include)"
+    directories:
+      source: "/home/et/gosrc/go-fltk/fltk_build/build/CMakeFiles/CMakeScratch/TryCompile-nHeso4"
+      binary: "/home/et/gosrc/go-fltk/fltk_build/build/CMakeFiles/CMakeScratch/TryCompile-nHeso4"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/et/gosrc/go-fltk/fltk_build/fltk/CMake"
+    buildResult:
+      variable: "HAVE_GL_GLU_H"
+      cached: true
+      stdout: |
+        Change Dir: '/home/et/gosrc/go-fltk/fltk_build/build/CMakeFiles/CMakeScratch/TryCompile-nHeso4'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_b16b9/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_b16b9.dir/build.make CMakeFiles/cmTC_b16b9.dir/build
+        make[1]: Verzeichnis „/home/et/Dropbox/Source/go/src/go-fltk/fltk_build/build/CMakeFiles/CMakeScratch/TryCompile-nHeso4“ wird betreten
+        Building C object CMakeFiles/cmTC_b16b9.dir/HAVE_GL_GLU_H.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_b16b9.dir/HAVE_GL_GLU_H.c.o -c /home/et/gosrc/go-fltk/fltk_build/build/CMakeFiles/CMakeScratch/TryCompile-nHeso4/HAVE_GL_GLU_H.c
+        Linking C executable cmTC_b16b9
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b16b9.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_b16b9.dir/HAVE_GL_GLU_H.c.o -o cmTC_b16b9
+        make[1]: Verzeichnis „/home/et/Dropbox/Source/go/src/go-fltk/fltk_build/build/CMakeFiles/CMakeScratch/TryCompile-nHeso4“ wird verlassen
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CheckIncludeFiles.cmake:141 (try_compile)"
+      - "CMake/resources.cmake:34 (check_include_files)"
+      - "CMake/resources.cmake:130 (fl_find_header)"
+      - "CMakeLists.txt:73 (include)"
+    directories:
+      source: "/home/et/gosrc/go-fltk/fltk_build/build/CMakeFiles/CMakeScratch/TryCompile-Q3K3op"
+      binary: "/home/et/gosrc/go-fltk/fltk_build/build/CMakeFiles/CMakeScratch/TryCompile-Q3K3op"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/et/gosrc/go-fltk/fltk_build/fltk/CMake"
+    buildResult:
+      variable: "HAVE_LOCALE_H"
+      cached: true
+      stdout: |
+        Change Dir: '/home/et/gosrc/go-fltk/fltk_build/build/CMakeFiles/CMakeScratch/TryCompile-Q3K3op'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_b24a4/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_b24a4.dir/build.make CMakeFiles/cmTC_b24a4.dir/build
+        make[1]: Verzeichnis „/home/et/Dropbox/Source/go/src/go-fltk/fltk_build/build/CMakeFiles/CMakeScratch/TryCompile-Q3K3op“ wird betreten
+        Building C object CMakeFiles/cmTC_b24a4.dir/HAVE_LOCALE_H.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_b24a4.dir/HAVE_LOCALE_H.c.o -c /home/et/gosrc/go-fltk/fltk_build/build/CMakeFiles/CMakeScratch/TryCompile-Q3K3op/HAVE_LOCALE_H.c
+        Linking C executable cmTC_b24a4
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b24a4.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_b24a4.dir/HAVE_LOCALE_H.c.o -o cmTC_b24a4
+        make[1]: Verzeichnis „/home/et/Dropbox/Source/go/src/go-fltk/fltk_build/build/CMakeFiles/CMakeScratch/TryCompile-Q3K3op“ wird verlassen
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CheckIncludeFiles.cmake:141 (try_compile)"
+      - "CMake/resources.cmake:34 (check_include_files)"
+      - "CMake/resources.cmake:131 (fl_find_header)"
+      - "CMakeLists.txt:73 (include)"
+    directories:
+      source: "/home/et/gosrc/go-fltk/fltk_build/build/CMakeFiles/CMakeScratch/TryCompile-k3E3FS"
+      binary: "/home/et/gosrc/go-fltk/fltk_build/build/CMakeFiles/CMakeScratch/TryCompile-k3E3FS"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/et/gosrc/go-fltk/fltk_build/fltk/CMake"
+    buildResult:
+      variable: "HAVE_OPENGL_GLU_H"
+      cached: true
+      stdout: |
+        Change Dir: '/home/et/gosrc/go-fltk/fltk_build/build/CMakeFiles/CMakeScratch/TryCompile-k3E3FS'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_a681b/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_a681b.dir/build.make CMakeFiles/cmTC_a681b.dir/build
+        make[1]: Verzeichnis „/home/et/Dropbox/Source/go/src/go-fltk/fltk_build/build/CMakeFiles/CMakeScratch/TryCompile-k3E3FS“ wird betreten
+        Building C object CMakeFiles/cmTC_a681b.dir/HAVE_OPENGL_GLU_H.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_a681b.dir/HAVE_OPENGL_GLU_H.c.o -c /home/et/gosrc/go-fltk/fltk_build/build/CMakeFiles/CMakeScratch/TryCompile-k3E3FS/HAVE_OPENGL_GLU_H.c
+        /home/et/gosrc/go-fltk/fltk_build/build/CMakeFiles/CMakeScratch/TryCompile-k3E3FS/HAVE_OPENGL_GLU_H.c:2:10: schwerwiegender Fehler: OpenGL/glu.h: Datei oder Verzeichnis nicht gefunden
+            2 | #include <OpenGL/glu.h>
+              |          ^~~~~~~~~~~~~~
+        Kompilierung beendet.
+        make[1]: *** [CMakeFiles/cmTC_a681b.dir/build.make:81: CMakeFiles/cmTC_a681b.dir/HAVE_OPENGL_GLU_H.c.o] Fehler 1
+        make[1]: Verzeichnis „/home/et/Dropbox/Source/go/src/go-fltk/fltk_build/build/CMakeFiles/CMakeScratch/TryCompile-k3E3FS“ wird verlassen
+        make: *** [Makefile:133: cmTC_a681b/fast] Fehler 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CheckIncludeFiles.cmake:141 (try_compile)"
+      - "CMake/resources.cmake:34 (check_include_files)"
+      - "CMake/resources.cmake:132 (fl_find_header)"
+      - "CMakeLists.txt:73 (include)"
+    directories:
+      source: "/home/et/gosrc/go-fltk/fltk_build/build/CMakeFiles/CMakeScratch/TryCompile-mtsUn7"
+      binary: "/home/et/gosrc/go-fltk/fltk_build/build/CMakeFiles/CMakeScratch/TryCompile-mtsUn7"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/et/gosrc/go-fltk/fltk_build/fltk/CMake"
+    buildResult:
+      variable: "HAVE_STDIO_H"
+      cached: true
+      stdout: |
+        Change Dir: '/home/et/gosrc/go-fltk/fltk_build/build/CMakeFiles/CMakeScratch/TryCompile-mtsUn7'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_b534e/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_b534e.dir/build.make CMakeFiles/cmTC_b534e.dir/build
+        make[1]: Verzeichnis „/home/et/Dropbox/Source/go/src/go-fltk/fltk_build/build/CMakeFiles/CMakeScratch/TryCompile-mtsUn7“ wird betreten
+        Building C object CMakeFiles/cmTC_b534e.dir/HAVE_STDIO_H.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_b534e.dir/HAVE_STDIO_H.c.o -c /home/et/gosrc/go-fltk/fltk_build/build/CMakeFiles/CMakeScratch/TryCompile-mtsUn7/HAVE_STDIO_H.c
+        Linking C executable cmTC_b534e
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b534e.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_b534e.dir/HAVE_STDIO_H.c.o -o cmTC_b534e
+        make[1]: Verzeichnis „/home/et/Dropbox/Source/go/src/go-fltk/fltk_build/build/CMakeFiles/CMakeScratch/TryCompile-mtsUn7“ wird verlassen
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CheckIncludeFiles.cmake:141 (try_compile)"
+      - "CMake/resources.cmake:34 (check_include_files)"
+      - "CMake/resources.cmake:133 (fl_find_header)"
+      - "CMakeLists.txt:73 (include)"
+    directories:
+      source: "/home/et/gosrc/go-fltk/fltk_build/build/CMakeFiles/CMakeScratch/TryCompile-mwOnrh"
+      binary: "/home/et/gosrc/go-fltk/fltk_build/build/CMakeFiles/CMakeScratch/TryCompile-mwOnrh"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/et/gosrc/go-fltk/fltk_build/fltk/CMake"
+    buildResult:
+      variable: "HAVE_STRINGS_H"
+      cached: true
+      stdout: |
+        Change Dir: '/home/et/gosrc/go-fltk/fltk_build/build/CMakeFiles/CMakeScratch/TryCompile-mwOnrh'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_76c1a/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_76c1a.dir/build.make CMakeFiles/cmTC_76c1a.dir/build
+        make[1]: Verzeichnis „/home/et/Dropbox/Source/go/src/go-fltk/fltk_build/build/CMakeFiles/CMakeScratch/TryCompile-mwOnrh“ wird betreten
+        Building C object CMakeFiles/cmTC_76c1a.dir/HAVE_STRINGS_H.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_76c1a.dir/HAVE_STRINGS_H.c.o -c /home/et/gosrc/go-fltk/fltk_build/build/CMakeFiles/CMakeScratch/TryCompile-mwOnrh/HAVE_STRINGS_H.c
+        Linking C executable cmTC_76c1a
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_76c1a.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_76c1a.dir/HAVE_STRINGS_H.c.o -o cmTC_76c1a
+        make[1]: Verzeichnis „/home/et/Dropbox/Source/go/src/go-fltk/fltk_build/build/CMakeFiles/CMakeScratch/TryCompile-mwOnrh“ wird verlassen
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CheckIncludeFiles.cmake:141 (try_compile)"
+      - "CMake/resources.cmake:34 (check_include_files)"
+      - "CMake/resources.cmake:134 (fl_find_header)"
+      - "CMakeLists.txt:73 (include)"
+    directories:
+      source: "/home/et/gosrc/go-fltk/fltk_build/build/CMakeFiles/CMakeScratch/TryCompile-g7hqTs"
+      binary: "/home/et/gosrc/go-fltk/fltk_build/build/CMakeFiles/CMakeScratch/TryCompile-g7hqTs"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/et/gosrc/go-fltk/fltk_build/fltk/CMake"
+    buildResult:
+      variable: "HAVE_SYS_SELECT_H"
+      cached: true
+      stdout: |
+        Change Dir: '/home/et/gosrc/go-fltk/fltk_build/build/CMakeFiles/CMakeScratch/TryCompile-g7hqTs'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_6263c/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_6263c.dir/build.make CMakeFiles/cmTC_6263c.dir/build
+        make[1]: Verzeichnis „/home/et/Dropbox/Source/go/src/go-fltk/fltk_build/build/CMakeFiles/CMakeScratch/TryCompile-g7hqTs“ wird betreten
+        Building C object CMakeFiles/cmTC_6263c.dir/HAVE_SYS_SELECT_H.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_6263c.dir/HAVE_SYS_SELECT_H.c.o -c /home/et/gosrc/go-fltk/fltk_build/build/CMakeFiles/CMakeScratch/TryCompile-g7hqTs/HAVE_SYS_SELECT_H.c
+        Linking C executable cmTC_6263c
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6263c.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_6263c.dir/HAVE_SYS_SELECT_H.c.o -o cmTC_6263c
+        make[1]: Verzeichnis „/home/et/Dropbox/Source/go/src/go-fltk/fltk_build/build/CMakeFiles/CMakeScratch/TryCompile-g7hqTs“ wird verlassen
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CheckIncludeFiles.cmake:141 (try_compile)"
+      - "CMake/resources.cmake:34 (check_include_files)"
+      - "CMake/resources.cmake:135 (fl_find_header)"
+      - "CMakeLists.txt:73 (include)"
+    directories:
+      source: "/home/et/gosrc/go-fltk/fltk_build/build/CMakeFiles/CMakeScratch/TryCompile-0AounU"
+      binary: "/home/et/gosrc/go-fltk/fltk_build/build/CMakeFiles/CMakeScratch/TryCompile-0AounU"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/et/gosrc/go-fltk/fltk_build/fltk/CMake"
+    buildResult:
+      variable: "HAVE_SYS_STDTYPES_H"
+      cached: true
+      stdout: |
+        Change Dir: '/home/et/gosrc/go-fltk/fltk_build/build/CMakeFiles/CMakeScratch/TryCompile-0AounU'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_b5250/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_b5250.dir/build.make CMakeFiles/cmTC_b5250.dir/build
+        make[1]: Verzeichnis „/home/et/Dropbox/Source/go/src/go-fltk/fltk_build/build/CMakeFiles/CMakeScratch/TryCompile-0AounU“ wird betreten
+        Building C object CMakeFiles/cmTC_b5250.dir/HAVE_SYS_STDTYPES_H.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_b5250.dir/HAVE_SYS_STDTYPES_H.c.o -c /home/et/gosrc/go-fltk/fltk_build/build/CMakeFiles/CMakeScratch/TryCompile-0AounU/HAVE_SYS_STDTYPES_H.c
+        /home/et/gosrc/go-fltk/fltk_build/build/CMakeFiles/CMakeScratch/TryCompile-0AounU/HAVE_SYS_STDTYPES_H.c:2:10: schwerwiegender Fehler: sys/stdtypes.h: Datei oder Verzeichnis nicht gefunden
+            2 | #include <sys/stdtypes.h>
+              |          ^~~~~~~~~~~~~~~~
+        Kompilierung beendet.
+        make[1]: *** [CMakeFiles/cmTC_b5250.dir/build.make:81: CMakeFiles/cmTC_b5250.dir/HAVE_SYS_STDTYPES_H.c.o] Fehler 1
+        make[1]: Verzeichnis „/home/et/Dropbox/Source/go/src/go-fltk/fltk_build/build/CMakeFiles/CMakeScratch/TryCompile-0AounU“ wird verlassen
+        make: *** [Makefile:133: cmTC_b5250/fast] Fehler 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CheckIncludeFiles.cmake:141 (try_compile)"
+      - "CMake/resources.cmake:34 (check_include_files)"
+      - "CMake/resources.cmake:137 (fl_find_header)"
+      - "CMakeLists.txt:73 (include)"
+    directories:
+      source: "/home/et/gosrc/go-fltk/fltk_build/build/CMakeFiles/CMakeScratch/TryCompile-bbm5m5"
+      binary: "/home/et/gosrc/go-fltk/fltk_build/build/CMakeFiles/CMakeScratch/TryCompile-bbm5m5"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/et/gosrc/go-fltk/fltk_build/fltk/CMake"
+    buildResult:
+      variable: "HAVE_X11_XREGION_H"
+      cached: true
+      stdout: |
+        Change Dir: '/home/et/gosrc/go-fltk/fltk_build/build/CMakeFiles/CMakeScratch/TryCompile-bbm5m5'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_facd2/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_facd2.dir/build.make CMakeFiles/cmTC_facd2.dir/build
+        make[1]: Verzeichnis „/home/et/Dropbox/Source/go/src/go-fltk/fltk_build/build/CMakeFiles/CMakeScratch/TryCompile-bbm5m5“ wird betreten
+        Building C object CMakeFiles/cmTC_facd2.dir/HAVE_X11_XREGION_H.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_facd2.dir/HAVE_X11_XREGION_H.c.o -c /home/et/gosrc/go-fltk/fltk_build/build/CMakeFiles/CMakeScratch/TryCompile-bbm5m5/HAVE_X11_XREGION_H.c
+        Linking C executable cmTC_facd2
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_facd2.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_facd2.dir/HAVE_X11_XREGION_H.c.o -o cmTC_facd2
+        make[1]: Verzeichnis „/home/et/Dropbox/Source/go/src/go-fltk/fltk_build/build/CMakeFiles/CMakeScratch/TryCompile-bbm5m5“ wird verlassen
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CheckIncludeFiles.cmake:141 (try_compile)"
+      - "CMake/resources.cmake:34 (check_include_files)"
+      - "CMake/resources.cmake:143 (fl_find_header)"
+      - "CMakeLists.txt:73 (include)"
+    directories:
+      source: "/home/et/gosrc/go-fltk/fltk_build/build/CMakeFiles/CMakeScratch/TryCompile-0rbvFz"
+      binary: "/home/et/gosrc/go-fltk/fltk_build/build/CMakeFiles/CMakeScratch/TryCompile-0rbvFz"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/et/gosrc/go-fltk/fltk_build/fltk/CMake"
+    buildResult:
+      variable: "HAVE_PTHREAD_H"
+      cached: true
+      stdout: |
+        Change Dir: '/home/et/gosrc/go-fltk/fltk_build/build/CMakeFiles/CMakeScratch/TryCompile-0rbvFz'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_167ad/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_167ad.dir/build.make CMakeFiles/cmTC_167ad.dir/build
+        make[1]: Verzeichnis „/home/et/Dropbox/Source/go/src/go-fltk/fltk_build/build/CMakeFiles/CMakeScratch/TryCompile-0rbvFz“ wird betreten
+        Building C object CMakeFiles/cmTC_167ad.dir/HAVE_PTHREAD_H.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_167ad.dir/HAVE_PTHREAD_H.c.o -c /home/et/gosrc/go-fltk/fltk_build/build/CMakeFiles/CMakeScratch/TryCompile-0rbvFz/HAVE_PTHREAD_H.c
+        Linking C executable cmTC_167ad
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_167ad.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_167ad.dir/HAVE_PTHREAD_H.c.o -o cmTC_167ad
+        make[1]: Verzeichnis „/home/et/Dropbox/Source/go/src/go-fltk/fltk_build/build/CMakeFiles/CMakeScratch/TryCompile-0rbvFz“ wird verlassen
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "CMake/resources.cmake:149 (try_compile)"
+      - "CMakeLists.txt:73 (include)"
+    directories:
+      source: "/home/et/gosrc/go-fltk/fltk_build/build/CMakeFiles/CMakeTmp"
+      binary: "/home/et/gosrc/go-fltk/fltk_build/build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/et/gosrc/go-fltk/fltk_build/fltk/CMake"
+    buildResult:
+      variable: "HAVE_PTHREAD_MUTEX_RECURSIVE"
+      cached: true
+      stdout: |
+        Change Dir: '/home/et/gosrc/go-fltk/fltk_build/build/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_3ffa1/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_3ffa1.dir/build.make CMakeFiles/cmTC_3ffa1.dir/build
+        make[1]: Verzeichnis „/home/et/Dropbox/Source/go/src/go-fltk/fltk_build/build/CMakeFiles/CMakeTmp“ wird betreten
+        Building C object CMakeFiles/cmTC_3ffa1.dir/pthread_mutex_recursive.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_3ffa1.dir/pthread_mutex_recursive.c.o -c /home/et/gosrc/go-fltk/fltk_build/fltk/CMake/pthread_mutex_recursive.c
+        Linking C executable cmTC_3ffa1
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3ffa1.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_3ffa1.dir/pthread_mutex_recursive.c.o -o cmTC_3ffa1
+        make[1]: Verzeichnis „/home/et/Dropbox/Source/go/src/go-fltk/fltk_build/build/CMakeFiles/CMakeTmp“ wird verlassen
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CheckIncludeFiles.cmake:141 (try_compile)"
+      - "CMake/resources.cmake:34 (check_include_files)"
+      - "CMake/resources.cmake:190 (fl_find_header)"
+      - "CMakeLists.txt:73 (include)"
+    directories:
+      source: "/home/et/gosrc/go-fltk/fltk_build/build/CMakeFiles/CMakeScratch/TryCompile-ZtiEAW"
+      binary: "/home/et/gosrc/go-fltk/fltk_build/build/CMakeFiles/CMakeScratch/TryCompile-ZtiEAW"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/et/gosrc/go-fltk/fltk_build/fltk/CMake"
+    buildResult:
+      variable: "HAVE_DIRENT_H"
+      cached: true
+      stdout: |
+        Change Dir: '/home/et/gosrc/go-fltk/fltk_build/build/CMakeFiles/CMakeScratch/TryCompile-ZtiEAW'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_67167/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_67167.dir/build.make CMakeFiles/cmTC_67167.dir/build
+        make[1]: Verzeichnis „/home/et/Dropbox/Source/go/src/go-fltk/fltk_build/build/CMakeFiles/CMakeScratch/TryCompile-ZtiEAW“ wird betreten
+        Building C object CMakeFiles/cmTC_67167.dir/HAVE_DIRENT_H.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_67167.dir/HAVE_DIRENT_H.c.o -c /home/et/gosrc/go-fltk/fltk_build/build/CMakeFiles/CMakeScratch/TryCompile-ZtiEAW/HAVE_DIRENT_H.c
+        Linking C executable cmTC_67167
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_67167.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_67167.dir/HAVE_DIRENT_H.c.o -o cmTC_67167
+        make[1]: Verzeichnis „/home/et/Dropbox/Source/go/src/go-fltk/fltk_build/build/CMakeFiles/CMakeScratch/TryCompile-ZtiEAW“ wird verlassen
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CheckSymbolExists.cmake:163 (try_compile)"
+      - "/usr/share/cmake/Modules/CheckSymbolExists.cmake:68 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "CMake/resources.cmake:257 (check_symbol_exists)"
+      - "CMakeLists.txt:73 (include)"
+    directories:
+      source: "/home/et/gosrc/go-fltk/fltk_build/build/CMakeFiles/CMakeScratch/TryCompile-spmvkb"
+      binary: "/home/et/gosrc/go-fltk/fltk_build/build/CMakeFiles/CMakeScratch/TryCompile-spmvkb"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/et/gosrc/go-fltk/fltk_build/fltk/CMake"
+    buildResult:
+      variable: "HAVE_DLSYM"
+      cached: true
+      stdout: |
+        Change Dir: '/home/et/gosrc/go-fltk/fltk_build/build/CMakeFiles/CMakeScratch/TryCompile-spmvkb'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_4aeb7/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_4aeb7.dir/build.make CMakeFiles/cmTC_4aeb7.dir/build
+        make[1]: Verzeichnis „/home/et/Dropbox/Source/go/src/go-fltk/fltk_build/build/CMakeFiles/CMakeScratch/TryCompile-spmvkb“ wird betreten
+        Building C object CMakeFiles/cmTC_4aeb7.dir/CheckSymbolExists.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_4aeb7.dir/CheckSymbolExists.c.o -c /home/et/gosrc/go-fltk/fltk_build/build/CMakeFiles/CMakeScratch/TryCompile-spmvkb/CheckSymbolExists.c
+        Linking C executable cmTC_4aeb7
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4aeb7.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_4aeb7.dir/CheckSymbolExists.c.o -o cmTC_4aeb7  -ldl
+        make[1]: Verzeichnis „/home/et/Dropbox/Source/go/src/go-fltk/fltk_build/build/CMakeFiles/CMakeScratch/TryCompile-spmvkb“ wird verlassen
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CheckSymbolExists.cmake:163 (try_compile)"
+      - "/usr/share/cmake/Modules/CheckSymbolExists.cmake:68 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "CMake/resources.cmake:260 (check_symbol_exists)"
+      - "CMakeLists.txt:73 (include)"
+    directories:
+      source: "/home/et/gosrc/go-fltk/fltk_build/build/CMakeFiles/CMakeScratch/TryCompile-KRwFjm"
+      binary: "/home/et/gosrc/go-fltk/fltk_build/build/CMakeFiles/CMakeScratch/TryCompile-KRwFjm"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/et/gosrc/go-fltk/fltk_build/fltk/CMake"
+    buildResult:
+      variable: "HAVE_LOCALECONV"
+      cached: true
+      stdout: |
+        Change Dir: '/home/et/gosrc/go-fltk/fltk_build/build/CMakeFiles/CMakeScratch/TryCompile-KRwFjm'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_01f79/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_01f79.dir/build.make CMakeFiles/cmTC_01f79.dir/build
+        make[1]: Verzeichnis „/home/et/Dropbox/Source/go/src/go-fltk/fltk_build/build/CMakeFiles/CMakeScratch/TryCompile-KRwFjm“ wird betreten
+        Building C object CMakeFiles/cmTC_01f79.dir/CheckSymbolExists.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_01f79.dir/CheckSymbolExists.c.o -c /home/et/gosrc/go-fltk/fltk_build/build/CMakeFiles/CMakeScratch/TryCompile-KRwFjm/CheckSymbolExists.c
+        Linking C executable cmTC_01f79
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_01f79.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_01f79.dir/CheckSymbolExists.c.o -o cmTC_01f79
+        make[1]: Verzeichnis „/home/et/Dropbox/Source/go/src/go-fltk/fltk_build/build/CMakeFiles/CMakeScratch/TryCompile-KRwFjm“ wird verlassen
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CheckSymbolExists.cmake:163 (try_compile)"
+      - "/usr/share/cmake/Modules/CheckSymbolExists.cmake:68 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "CMake/resources.cmake:264 (check_symbol_exists)"
+      - "CMakeLists.txt:73 (include)"
+    directories:
+      source: "/home/et/gosrc/go-fltk/fltk_build/build/CMakeFiles/CMakeScratch/TryCompile-plEI6V"
+      binary: "/home/et/gosrc/go-fltk/fltk_build/build/CMakeFiles/CMakeScratch/TryCompile-plEI6V"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/et/gosrc/go-fltk/fltk_build/fltk/CMake"
+    buildResult:
+      variable: "HAVE_PNG_GET_VALID"
+      cached: true
+      stdout: |
+        Change Dir: '/home/et/gosrc/go-fltk/fltk_build/build/CMakeFiles/CMakeScratch/TryCompile-plEI6V'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_8d236/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_8d236.dir/build.make CMakeFiles/cmTC_8d236.dir/build
+        make[1]: Verzeichnis „/home/et/Dropbox/Source/go/src/go-fltk/fltk_build/build/CMakeFiles/CMakeScratch/TryCompile-plEI6V“ wird betreten
+        Building C object CMakeFiles/cmTC_8d236.dir/CheckSymbolExists.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_8d236.dir/CheckSymbolExists.c.o -c /home/et/gosrc/go-fltk/fltk_build/build/CMakeFiles/CMakeScratch/TryCompile-plEI6V/CheckSymbolExists.c
+        Linking C executable cmTC_8d236
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8d236.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_8d236.dir/CheckSymbolExists.c.o -o cmTC_8d236  /usr/lib/libpng.so
+        make[1]: Verzeichnis „/home/et/Dropbox/Source/go/src/go-fltk/fltk_build/build/CMakeFiles/CMakeScratch/TryCompile-plEI6V“ wird verlassen
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CheckSymbolExists.cmake:163 (try_compile)"
+      - "/usr/share/cmake/Modules/CheckSymbolExists.cmake:68 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "CMake/resources.cmake:265 (check_symbol_exists)"
+      - "CMakeLists.txt:73 (include)"
+    directories:
+      source: "/home/et/gosrc/go-fltk/fltk_build/build/CMakeFiles/CMakeScratch/TryCompile-895OTY"
+      binary: "/home/et/gosrc/go-fltk/fltk_build/build/CMakeFiles/CMakeScratch/TryCompile-895OTY"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/et/gosrc/go-fltk/fltk_build/fltk/CMake"
+    buildResult:
+      variable: "HAVE_PNG_SET_TRNS_TO_ALPHA"
+      cached: true
+      stdout: |
+        Change Dir: '/home/et/gosrc/go-fltk/fltk_build/build/CMakeFiles/CMakeScratch/TryCompile-895OTY'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_1d4fe/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_1d4fe.dir/build.make CMakeFiles/cmTC_1d4fe.dir/build
+        make[1]: Verzeichnis „/home/et/Dropbox/Source/go/src/go-fltk/fltk_build/build/CMakeFiles/CMakeScratch/TryCompile-895OTY“ wird betreten
+        Building C object CMakeFiles/cmTC_1d4fe.dir/CheckSymbolExists.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_1d4fe.dir/CheckSymbolExists.c.o -c /home/et/gosrc/go-fltk/fltk_build/build/CMakeFiles/CMakeScratch/TryCompile-895OTY/CheckSymbolExists.c
+        Linking C executable cmTC_1d4fe
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1d4fe.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_1d4fe.dir/CheckSymbolExists.c.o -o cmTC_1d4fe  /usr/lib/libpng.so
+        make[1]: Verzeichnis „/home/et/Dropbox/Source/go/src/go-fltk/fltk_build/build/CMakeFiles/CMakeScratch/TryCompile-895OTY“ wird verlassen
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CheckSymbolExists.cmake:163 (try_compile)"
+      - "/usr/share/cmake/Modules/CheckSymbolExists.cmake:68 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "CMake/resources.cmake:269 (check_symbol_exists)"
+      - "CMakeLists.txt:73 (include)"
+    directories:
+      source: "/home/et/gosrc/go-fltk/fltk_build/build/CMakeFiles/CMakeScratch/TryCompile-xGdRDM"
+      binary: "/home/et/gosrc/go-fltk/fltk_build/build/CMakeFiles/CMakeScratch/TryCompile-xGdRDM"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/et/gosrc/go-fltk/fltk_build/fltk/CMake"
+    buildResult:
+      variable: "HAVE_SCANDIR"
+      cached: true
+      stdout: |
+        Change Dir: '/home/et/gosrc/go-fltk/fltk_build/build/CMakeFiles/CMakeScratch/TryCompile-xGdRDM'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_5501a/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_5501a.dir/build.make CMakeFiles/cmTC_5501a.dir/build
+        make[1]: Verzeichnis „/home/et/Dropbox/Source/go/src/go-fltk/fltk_build/build/CMakeFiles/CMakeScratch/TryCompile-xGdRDM“ wird betreten
+        Building C object CMakeFiles/cmTC_5501a.dir/CheckSymbolExists.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_5501a.dir/CheckSymbolExists.c.o -c /home/et/gosrc/go-fltk/fltk_build/build/CMakeFiles/CMakeScratch/TryCompile-xGdRDM/CheckSymbolExists.c
+        Linking C executable cmTC_5501a
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5501a.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_5501a.dir/CheckSymbolExists.c.o -o cmTC_5501a
+        make[1]: Verzeichnis „/home/et/Dropbox/Source/go/src/go-fltk/fltk_build/build/CMakeFiles/CMakeScratch/TryCompile-xGdRDM“ wird verlassen
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CheckSymbolExists.cmake:163 (try_compile)"
+      - "/usr/share/cmake/Modules/CheckSymbolExists.cmake:68 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "CMake/resources.cmake:270 (check_symbol_exists)"
+      - "CMakeLists.txt:73 (include)"
+    directories:
+      source: "/home/et/gosrc/go-fltk/fltk_build/build/CMakeFiles/CMakeScratch/TryCompile-6nd7vS"
+      binary: "/home/et/gosrc/go-fltk/fltk_build/build/CMakeFiles/CMakeScratch/TryCompile-6nd7vS"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/et/gosrc/go-fltk/fltk_build/fltk/CMake"
+    buildResult:
+      variable: "HAVE_SNPRINTF"
+      cached: true
+      stdout: |
+        Change Dir: '/home/et/gosrc/go-fltk/fltk_build/build/CMakeFiles/CMakeScratch/TryCompile-6nd7vS'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_7f98f/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_7f98f.dir/build.make CMakeFiles/cmTC_7f98f.dir/build
+        make[1]: Verzeichnis „/home/et/Dropbox/Source/go/src/go-fltk/fltk_build/build/CMakeFiles/CMakeScratch/TryCompile-6nd7vS“ wird betreten
+        Building C object CMakeFiles/cmTC_7f98f.dir/CheckSymbolExists.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_7f98f.dir/CheckSymbolExists.c.o -c /home/et/gosrc/go-fltk/fltk_build/build/CMakeFiles/CMakeScratch/TryCompile-6nd7vS/CheckSymbolExists.c
+        Linking C executable cmTC_7f98f
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7f98f.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_7f98f.dir/CheckSymbolExists.c.o -o cmTC_7f98f
+        make[1]: Verzeichnis „/home/et/Dropbox/Source/go/src/go-fltk/fltk_build/build/CMakeFiles/CMakeScratch/TryCompile-6nd7vS“ wird verlassen
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CheckSymbolExists.cmake:163 (try_compile)"
+      - "/usr/share/cmake/Modules/CheckSymbolExists.cmake:68 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "CMake/resources.cmake:277 (check_symbol_exists)"
+      - "CMakeLists.txt:73 (include)"
+    directories:
+      source: "/home/et/gosrc/go-fltk/fltk_build/build/CMakeFiles/CMakeScratch/TryCompile-fzAQ8e"
+      binary: "/home/et/gosrc/go-fltk/fltk_build/build/CMakeFiles/CMakeScratch/TryCompile-fzAQ8e"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/et/gosrc/go-fltk/fltk_build/fltk/CMake"
+    buildResult:
+      variable: "HAVE_STRCASECMP"
+      cached: true
+      stdout: |
+        Change Dir: '/home/et/gosrc/go-fltk/fltk_build/build/CMakeFiles/CMakeScratch/TryCompile-fzAQ8e'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_dafca/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_dafca.dir/build.make CMakeFiles/cmTC_dafca.dir/build
+        make[1]: Verzeichnis „/home/et/Dropbox/Source/go/src/go-fltk/fltk_build/build/CMakeFiles/CMakeScratch/TryCompile-fzAQ8e“ wird betreten
+        Building C object CMakeFiles/cmTC_dafca.dir/CheckSymbolExists.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_dafca.dir/CheckSymbolExists.c.o -c /home/et/gosrc/go-fltk/fltk_build/build/CMakeFiles/CMakeScratch/TryCompile-fzAQ8e/CheckSymbolExists.c
+        Linking C executable cmTC_dafca
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dafca.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_dafca.dir/CheckSymbolExists.c.o -o cmTC_dafca
+        make[1]: Verzeichnis „/home/et/Dropbox/Source/go/src/go-fltk/fltk_build/build/CMakeFiles/CMakeScratch/TryCompile-fzAQ8e“ wird verlassen
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CheckSymbolExists.cmake:163 (try_compile)"
+      - "/usr/share/cmake/Modules/CheckSymbolExists.cmake:68 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "CMake/resources.cmake:279 (check_symbol_exists)"
+      - "CMakeLists.txt:73 (include)"
+    directories:
+      source: "/home/et/gosrc/go-fltk/fltk_build/build/CMakeFiles/CMakeScratch/TryCompile-HQQLx8"
+      binary: "/home/et/gosrc/go-fltk/fltk_build/build/CMakeFiles/CMakeScratch/TryCompile-HQQLx8"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/et/gosrc/go-fltk/fltk_build/fltk/CMake"
+    buildResult:
+      variable: "HAVE_STRLCAT"
+      cached: true
+      stdout: |
+        Change Dir: '/home/et/gosrc/go-fltk/fltk_build/build/CMakeFiles/CMakeScratch/TryCompile-HQQLx8'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_d7fa3/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_d7fa3.dir/build.make CMakeFiles/cmTC_d7fa3.dir/build
+        make[1]: Verzeichnis „/home/et/Dropbox/Source/go/src/go-fltk/fltk_build/build/CMakeFiles/CMakeScratch/TryCompile-HQQLx8“ wird betreten
+        Building C object CMakeFiles/cmTC_d7fa3.dir/CheckSymbolExists.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_d7fa3.dir/CheckSymbolExists.c.o -c /home/et/gosrc/go-fltk/fltk_build/build/CMakeFiles/CMakeScratch/TryCompile-HQQLx8/CheckSymbolExists.c
+        Linking C executable cmTC_d7fa3
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d7fa3.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_d7fa3.dir/CheckSymbolExists.c.o -o cmTC_d7fa3
+        make[1]: Verzeichnis „/home/et/Dropbox/Source/go/src/go-fltk/fltk_build/build/CMakeFiles/CMakeScratch/TryCompile-HQQLx8“ wird verlassen
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CheckSymbolExists.cmake:163 (try_compile)"
+      - "/usr/share/cmake/Modules/CheckSymbolExists.cmake:68 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "CMake/resources.cmake:280 (check_symbol_exists)"
+      - "CMakeLists.txt:73 (include)"
+    directories:
+      source: "/home/et/gosrc/go-fltk/fltk_build/build/CMakeFiles/CMakeScratch/TryCompile-L4uQfD"
+      binary: "/home/et/gosrc/go-fltk/fltk_build/build/CMakeFiles/CMakeScratch/TryCompile-L4uQfD"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/et/gosrc/go-fltk/fltk_build/fltk/CMake"
+    buildResult:
+      variable: "HAVE_STRLCPY"
+      cached: true
+      stdout: |
+        Change Dir: '/home/et/gosrc/go-fltk/fltk_build/build/CMakeFiles/CMakeScratch/TryCompile-L4uQfD'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_636a2/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_636a2.dir/build.make CMakeFiles/cmTC_636a2.dir/build
+        make[1]: Verzeichnis „/home/et/Dropbox/Source/go/src/go-fltk/fltk_build/build/CMakeFiles/CMakeScratch/TryCompile-L4uQfD“ wird betreten
+        Building C object CMakeFiles/cmTC_636a2.dir/CheckSymbolExists.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_636a2.dir/CheckSymbolExists.c.o -c /home/et/gosrc/go-fltk/fltk_build/build/CMakeFiles/CMakeScratch/TryCompile-L4uQfD/CheckSymbolExists.c
+        Linking C executable cmTC_636a2
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_636a2.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_636a2.dir/CheckSymbolExists.c.o -o cmTC_636a2
+        make[1]: Verzeichnis „/home/et/Dropbox/Source/go/src/go-fltk/fltk_build/build/CMakeFiles/CMakeScratch/TryCompile-L4uQfD“ wird verlassen
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CheckSymbolExists.cmake:163 (try_compile)"
+      - "/usr/share/cmake/Modules/CheckSymbolExists.cmake:68 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "CMake/resources.cmake:281 (check_symbol_exists)"
+      - "CMakeLists.txt:73 (include)"
+    directories:
+      source: "/home/et/gosrc/go-fltk/fltk_build/build/CMakeFiles/CMakeScratch/TryCompile-r08brj"
+      binary: "/home/et/gosrc/go-fltk/fltk_build/build/CMakeFiles/CMakeScratch/TryCompile-r08brj"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/et/gosrc/go-fltk/fltk_build/fltk/CMake"
+    buildResult:
+      variable: "HAVE_VSNPRINTF"
+      cached: true
+      stdout: |
+        Change Dir: '/home/et/gosrc/go-fltk/fltk_build/build/CMakeFiles/CMakeScratch/TryCompile-r08brj'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_264a6/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_264a6.dir/build.make CMakeFiles/cmTC_264a6.dir/build
+        make[1]: Verzeichnis „/home/et/Dropbox/Source/go/src/go-fltk/fltk_build/build/CMakeFiles/CMakeScratch/TryCompile-r08brj“ wird betreten
+        Building C object CMakeFiles/cmTC_264a6.dir/CheckSymbolExists.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_264a6.dir/CheckSymbolExists.c.o -c /home/et/gosrc/go-fltk/fltk_build/build/CMakeFiles/CMakeScratch/TryCompile-r08brj/CheckSymbolExists.c
+        Linking C executable cmTC_264a6
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_264a6.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_264a6.dir/CheckSymbolExists.c.o -o cmTC_264a6
+        make[1]: Verzeichnis „/home/et/Dropbox/Source/go/src/go-fltk/fltk_build/build/CMakeFiles/CMakeScratch/TryCompile-r08brj“ wird verlassen
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CheckSymbolExists.cmake:163 (try_compile)"
+      - "/usr/share/cmake/Modules/CheckSymbolExists.cmake:68 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "CMake/resources.cmake:283 (check_symbol_exists)"
+      - "CMakeLists.txt:73 (include)"
+    directories:
+      source: "/home/et/gosrc/go-fltk/fltk_build/build/CMakeFiles/CMakeScratch/TryCompile-SrJu32"
+      binary: "/home/et/gosrc/go-fltk/fltk_build/build/CMakeFiles/CMakeScratch/TryCompile-SrJu32"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/et/gosrc/go-fltk/fltk_build/fltk/CMake"
+    buildResult:
+      variable: "HAVE_SETENV"
+      cached: true
+      stdout: |
+        Change Dir: '/home/et/gosrc/go-fltk/fltk_build/build/CMakeFiles/CMakeScratch/TryCompile-SrJu32'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_6f5f2/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_6f5f2.dir/build.make CMakeFiles/cmTC_6f5f2.dir/build
+        make[1]: Verzeichnis „/home/et/Dropbox/Source/go/src/go-fltk/fltk_build/build/CMakeFiles/CMakeScratch/TryCompile-SrJu32“ wird betreten
+        Building C object CMakeFiles/cmTC_6f5f2.dir/CheckSymbolExists.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_6f5f2.dir/CheckSymbolExists.c.o -c /home/et/gosrc/go-fltk/fltk_build/build/CMakeFiles/CMakeScratch/TryCompile-SrJu32/CheckSymbolExists.c
+        Linking C executable cmTC_6f5f2
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6f5f2.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_6f5f2.dir/CheckSymbolExists.c.o -o cmTC_6f5f2
+        make[1]: Verzeichnis „/home/et/Dropbox/Source/go/src/go-fltk/fltk_build/build/CMakeFiles/CMakeScratch/TryCompile-SrJu32“ wird verlassen
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CheckSymbolExists.cmake:163 (try_compile)"
+      - "/usr/share/cmake/Modules/CheckSymbolExists.cmake:68 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "CMake/resources.cmake:290 (check_symbol_exists)"
+      - "CMakeLists.txt:73 (include)"
+    directories:
+      source: "/home/et/gosrc/go-fltk/fltk_build/build/CMakeFiles/CMakeScratch/TryCompile-hBimt0"
+      binary: "/home/et/gosrc/go-fltk/fltk_build/build/CMakeFiles/CMakeScratch/TryCompile-hBimt0"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/et/gosrc/go-fltk/fltk_build/fltk/CMake"
+    buildResult:
+      variable: "HAVE_TRUNC"
+      cached: true
+      stdout: |
+        Change Dir: '/home/et/gosrc/go-fltk/fltk_build/build/CMakeFiles/CMakeScratch/TryCompile-hBimt0'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_e2ba9/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_e2ba9.dir/build.make CMakeFiles/cmTC_e2ba9.dir/build
+        make[1]: Verzeichnis „/home/et/Dropbox/Source/go/src/go-fltk/fltk_build/build/CMakeFiles/CMakeScratch/TryCompile-hBimt0“ wird betreten
+        Building C object CMakeFiles/cmTC_e2ba9.dir/CheckSymbolExists.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_e2ba9.dir/CheckSymbolExists.c.o -c /home/et/gosrc/go-fltk/fltk_build/build/CMakeFiles/CMakeScratch/TryCompile-hBimt0/CheckSymbolExists.c
+        Linking C executable cmTC_e2ba9
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e2ba9.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_e2ba9.dir/CheckSymbolExists.c.o -o cmTC_e2ba9  -lm
+        make[1]: Verzeichnis „/home/et/Dropbox/Source/go/src/go-fltk/fltk_build/build/CMakeFiles/CMakeScratch/TryCompile-hBimt0“ wird verlassen
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "CMake/resources.cmake:297 (try_compile)"
+      - "CMakeLists.txt:73 (include)"
+    directories:
+      source: "/home/et/gosrc/go-fltk/fltk_build/build/CMakeFiles/CMakeTmp"
+      binary: "/home/et/gosrc/go-fltk/fltk_build/build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/et/gosrc/go-fltk/fltk_build/fltk/CMake"
+    buildResult:
+      variable: "V"
+      cached: true
+      stdout: |
+        Change Dir: '/home/et/gosrc/go-fltk/fltk_build/build/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_a0e41/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_a0e41.dir/build.make CMakeFiles/cmTC_a0e41.dir/build
+        make[1]: Verzeichnis „/home/et/Dropbox/Source/go/src/go-fltk/fltk_build/build/CMakeFiles/CMakeTmp“ wird betreten
+        Building CXX object CMakeFiles/cmTC_a0e41.dir/posixScandir.cxx.o
+        /usr/bin/c++    -o CMakeFiles/cmTC_a0e41.dir/posixScandir.cxx.o -c /home/et/gosrc/go-fltk/fltk_build/fltk/CMake/posixScandir.cxx
+        Linking CXX executable cmTC_a0e41
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a0e41.dir/link.txt --verbose=1
+        /usr/bin/c++ CMakeFiles/cmTC_a0e41.dir/posixScandir.cxx.o -o cmTC_a0e41
+        make[1]: Verzeichnis „/home/et/Dropbox/Source/go/src/go-fltk/fltk_build/build/CMakeFiles/CMakeTmp“ wird verlassen
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CheckLibraryExists.cmake:78 (try_compile)"
+      - "/usr/share/cmake/Modules/FindX11.cmake:693 (check_library_exists)"
+      - "CMake/options.cmake:298 (include)"
+      - "CMakeLists.txt:78 (include)"
+    checks:
+      - "Looking for XOpenDisplay in /usr/lib/libX11.so;/usr/lib/libXext.so"
+    directories:
+      source: "/home/et/gosrc/go-fltk/fltk_build/build/CMakeFiles/CMakeScratch/TryCompile-MLc74Q"
+      binary: "/home/et/gosrc/go-fltk/fltk_build/build/CMakeFiles/CMakeScratch/TryCompile-MLc74Q"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/et/gosrc/go-fltk/fltk_build/fltk/CMake"
+    buildResult:
+      variable: "X11_LIB_X11_SOLO"
+      cached: true
+      stdout: |
+        Change Dir: '/home/et/gosrc/go-fltk/fltk_build/build/CMakeFiles/CMakeScratch/TryCompile-MLc74Q'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_50ac2/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_50ac2.dir/build.make CMakeFiles/cmTC_50ac2.dir/build
+        make[1]: Verzeichnis „/home/et/Dropbox/Source/go/src/go-fltk/fltk_build/build/CMakeFiles/CMakeScratch/TryCompile-MLc74Q“ wird betreten
+        Building C object CMakeFiles/cmTC_50ac2.dir/CheckFunctionExists.c.o
+        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=XOpenDisplay -o CMakeFiles/cmTC_50ac2.dir/CheckFunctionExists.c.o -c /home/et/gosrc/go-fltk/fltk_build/build/CMakeFiles/CMakeScratch/TryCompile-MLc74Q/CheckFunctionExists.c
+        Linking C executable cmTC_50ac2
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_50ac2.dir/link.txt --verbose=1
+        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=XOpenDisplay CMakeFiles/cmTC_50ac2.dir/CheckFunctionExists.c.o -o cmTC_50ac2  /usr/lib/libX11.so /usr/lib/libXext.so
+        make[1]: Verzeichnis „/home/et/Dropbox/Source/go/src/go-fltk/fltk_build/build/CMakeFiles/CMakeScratch/TryCompile-MLc74Q“ wird verlassen
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CheckFunctionExists.cmake:93 (try_compile)"
+      - "/usr/share/cmake/Modules/FindX11.cmake:708 (check_function_exists)"
+      - "CMake/options.cmake:298 (include)"
+      - "CMakeLists.txt:78 (include)"
+    checks:
+      - "Looking for gethostbyname"
+    directories:
+      source: "/home/et/gosrc/go-fltk/fltk_build/build/CMakeFiles/CMakeScratch/TryCompile-qhA1qx"
+      binary: "/home/et/gosrc/go-fltk/fltk_build/build/CMakeFiles/CMakeScratch/TryCompile-qhA1qx"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/et/gosrc/go-fltk/fltk_build/fltk/CMake"
+    buildResult:
+      variable: "CMAKE_HAVE_GETHOSTBYNAME"
+      cached: true
+      stdout: |
+        Change Dir: '/home/et/gosrc/go-fltk/fltk_build/build/CMakeFiles/CMakeScratch/TryCompile-qhA1qx'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_37133/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_37133.dir/build.make CMakeFiles/cmTC_37133.dir/build
+        make[1]: Verzeichnis „/home/et/Dropbox/Source/go/src/go-fltk/fltk_build/build/CMakeFiles/CMakeScratch/TryCompile-qhA1qx“ wird betreten
+        Building C object CMakeFiles/cmTC_37133.dir/CheckFunctionExists.c.o
+        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=gethostbyname -o CMakeFiles/cmTC_37133.dir/CheckFunctionExists.c.o -c /home/et/gosrc/go-fltk/fltk_build/build/CMakeFiles/CMakeScratch/TryCompile-qhA1qx/CheckFunctionExists.c
+        Linking C executable cmTC_37133
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_37133.dir/link.txt --verbose=1
+        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=gethostbyname CMakeFiles/cmTC_37133.dir/CheckFunctionExists.c.o -o cmTC_37133
+        make[1]: Verzeichnis „/home/et/Dropbox/Source/go/src/go-fltk/fltk_build/build/CMakeFiles/CMakeScratch/TryCompile-qhA1qx“ wird verlassen
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CheckFunctionExists.cmake:93 (try_compile)"
+      - "/usr/share/cmake/Modules/FindX11.cmake:722 (check_function_exists)"
+      - "CMake/options.cmake:298 (include)"
+      - "CMakeLists.txt:78 (include)"
+    checks:
+      - "Looking for connect"
+    directories:
+      source: "/home/et/gosrc/go-fltk/fltk_build/build/CMakeFiles/CMakeScratch/TryCompile-K8sTWK"
+      binary: "/home/et/gosrc/go-fltk/fltk_build/build/CMakeFiles/CMakeScratch/TryCompile-K8sTWK"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/et/gosrc/go-fltk/fltk_build/fltk/CMake"
+    buildResult:
+      variable: "CMAKE_HAVE_CONNECT"
+      cached: true
+      stdout: |
+        Change Dir: '/home/et/gosrc/go-fltk/fltk_build/build/CMakeFiles/CMakeScratch/TryCompile-K8sTWK'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_6d83d/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_6d83d.dir/build.make CMakeFiles/cmTC_6d83d.dir/build
+        make[1]: Verzeichnis „/home/et/Dropbox/Source/go/src/go-fltk/fltk_build/build/CMakeFiles/CMakeScratch/TryCompile-K8sTWK“ wird betreten
+        Building C object CMakeFiles/cmTC_6d83d.dir/CheckFunctionExists.c.o
+        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=connect -o CMakeFiles/cmTC_6d83d.dir/CheckFunctionExists.c.o -c /home/et/gosrc/go-fltk/fltk_build/build/CMakeFiles/CMakeScratch/TryCompile-K8sTWK/CheckFunctionExists.c
+        Linking C executable cmTC_6d83d
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6d83d.dir/link.txt --verbose=1
+        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=connect CMakeFiles/cmTC_6d83d.dir/CheckFunctionExists.c.o -o cmTC_6d83d
+        make[1]: Verzeichnis „/home/et/Dropbox/Source/go/src/go-fltk/fltk_build/build/CMakeFiles/CMakeScratch/TryCompile-K8sTWK“ wird verlassen
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CheckFunctionExists.cmake:93 (try_compile)"
+      - "/usr/share/cmake/Modules/FindX11.cmake:731 (check_function_exists)"
+      - "CMake/options.cmake:298 (include)"
+      - "CMakeLists.txt:78 (include)"
+    checks:
+      - "Looking for remove"
+    directories:
+      source: "/home/et/gosrc/go-fltk/fltk_build/build/CMakeFiles/CMakeScratch/TryCompile-3UsekV"
+      binary: "/home/et/gosrc/go-fltk/fltk_build/build/CMakeFiles/CMakeScratch/TryCompile-3UsekV"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/et/gosrc/go-fltk/fltk_build/fltk/CMake"
+    buildResult:
+      variable: "CMAKE_HAVE_REMOVE"
+      cached: true
+      stdout: |
+        Change Dir: '/home/et/gosrc/go-fltk/fltk_build/build/CMakeFiles/CMakeScratch/TryCompile-3UsekV'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_dcbd3/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_dcbd3.dir/build.make CMakeFiles/cmTC_dcbd3.dir/build
+        make[1]: Verzeichnis „/home/et/Dropbox/Source/go/src/go-fltk/fltk_build/build/CMakeFiles/CMakeScratch/TryCompile-3UsekV“ wird betreten
+        Building C object CMakeFiles/cmTC_dcbd3.dir/CheckFunctionExists.c.o
+        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=remove -o CMakeFiles/cmTC_dcbd3.dir/CheckFunctionExists.c.o -c /home/et/gosrc/go-fltk/fltk_build/build/CMakeFiles/CMakeScratch/TryCompile-3UsekV/CheckFunctionExists.c
+        Linking C executable cmTC_dcbd3
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dcbd3.dir/link.txt --verbose=1
+        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=remove CMakeFiles/cmTC_dcbd3.dir/CheckFunctionExists.c.o -o cmTC_dcbd3
+        make[1]: Verzeichnis „/home/et/Dropbox/Source/go/src/go-fltk/fltk_build/build/CMakeFiles/CMakeScratch/TryCompile-3UsekV“ wird verlassen
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CheckFunctionExists.cmake:93 (try_compile)"
+      - "/usr/share/cmake/Modules/FindX11.cmake:740 (check_function_exists)"
+      - "CMake/options.cmake:298 (include)"
+      - "CMakeLists.txt:78 (include)"
+    checks:
+      - "Looking for shmat"
+    directories:
+      source: "/home/et/gosrc/go-fltk/fltk_build/build/CMakeFiles/CMakeScratch/TryCompile-I0afZf"
+      binary: "/home/et/gosrc/go-fltk/fltk_build/build/CMakeFiles/CMakeScratch/TryCompile-I0afZf"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/et/gosrc/go-fltk/fltk_build/fltk/CMake"
+    buildResult:
+      variable: "CMAKE_HAVE_SHMAT"
+      cached: true
+      stdout: |
+        Change Dir: '/home/et/gosrc/go-fltk/fltk_build/build/CMakeFiles/CMakeScratch/TryCompile-I0afZf'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_1146a/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_1146a.dir/build.make CMakeFiles/cmTC_1146a.dir/build
+        make[1]: Verzeichnis „/home/et/Dropbox/Source/go/src/go-fltk/fltk_build/build/CMakeFiles/CMakeScratch/TryCompile-I0afZf“ wird betreten
+        Building C object CMakeFiles/cmTC_1146a.dir/CheckFunctionExists.c.o
+        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=shmat -o CMakeFiles/cmTC_1146a.dir/CheckFunctionExists.c.o -c /home/et/gosrc/go-fltk/fltk_build/build/CMakeFiles/CMakeScratch/TryCompile-I0afZf/CheckFunctionExists.c
+        Linking C executable cmTC_1146a
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1146a.dir/link.txt --verbose=1
+        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=shmat CMakeFiles/cmTC_1146a.dir/CheckFunctionExists.c.o -o cmTC_1146a
+        make[1]: Verzeichnis „/home/et/Dropbox/Source/go/src/go-fltk/fltk_build/build/CMakeFiles/CMakeScratch/TryCompile-I0afZf“ wird verlassen
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CheckLibraryExists.cmake:78 (try_compile)"
+      - "/usr/share/cmake/Modules/FindX11.cmake:750 (check_library_exists)"
+      - "CMake/options.cmake:298 (include)"
+      - "CMakeLists.txt:78 (include)"
+    checks:
+      - "Looking for IceConnectionNumber in ICE"
+    directories:
+      source: "/home/et/gosrc/go-fltk/fltk_build/build/CMakeFiles/CMakeScratch/TryCompile-uBm2gS"
+      binary: "/home/et/gosrc/go-fltk/fltk_build/build/CMakeFiles/CMakeScratch/TryCompile-uBm2gS"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/et/gosrc/go-fltk/fltk_build/fltk/CMake"
+    buildResult:
+      variable: "CMAKE_LIB_ICE_HAS_ICECONNECTIONNUMBER"
+      cached: true
+      stdout: |
+        Change Dir: '/home/et/gosrc/go-fltk/fltk_build/build/CMakeFiles/CMakeScratch/TryCompile-uBm2gS'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_adc5d/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_adc5d.dir/build.make CMakeFiles/cmTC_adc5d.dir/build
+        make[1]: Verzeichnis „/home/et/Dropbox/Source/go/src/go-fltk/fltk_build/build/CMakeFiles/CMakeScratch/TryCompile-uBm2gS“ wird betreten
+        Building C object CMakeFiles/cmTC_adc5d.dir/CheckFunctionExists.c.o
+        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=IceConnectionNumber -o CMakeFiles/cmTC_adc5d.dir/CheckFunctionExists.c.o -c /home/et/gosrc/go-fltk/fltk_build/build/CMakeFiles/CMakeScratch/TryCompile-uBm2gS/CheckFunctionExists.c
+        Linking C executable cmTC_adc5d
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_adc5d.dir/link.txt --verbose=1
+        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=IceConnectionNumber CMakeFiles/cmTC_adc5d.dir/CheckFunctionExists.c.o -o cmTC_adc5d  -lICE
+        make[1]: Verzeichnis „/home/et/Dropbox/Source/go/src/go-fltk/fltk_build/build/CMakeFiles/CMakeScratch/TryCompile-uBm2gS“ wird verlassen
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CheckSymbolExists.cmake:163 (try_compile)"
+      - "/usr/share/cmake/Modules/CheckSymbolExists.cmake:68 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "CMake/options.cmake:709 (check_symbol_exists)"
+      - "CMakeLists.txt:78 (include)"
+    checks:
+      - "Looking for glXGetProcAddressARB"
+    directories:
+      source: "/home/et/gosrc/go-fltk/fltk_build/build/CMakeFiles/CMakeScratch/TryCompile-G6YSxF"
+      binary: "/home/et/gosrc/go-fltk/fltk_build/build/CMakeFiles/CMakeScratch/TryCompile-G6YSxF"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/et/gosrc/go-fltk/fltk_build/fltk/CMake"
+    buildResult:
+      variable: "HAVE_GLXGETPROCADDRESSARB"
+      cached: true
+      stdout: |
+        Change Dir: '/home/et/gosrc/go-fltk/fltk_build/build/CMakeFiles/CMakeScratch/TryCompile-G6YSxF'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_5eaeb/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_5eaeb.dir/build.make CMakeFiles/cmTC_5eaeb.dir/build
+        make[1]: Verzeichnis „/home/et/Dropbox/Source/go/src/go-fltk/fltk_build/build/CMakeFiles/CMakeScratch/TryCompile-G6YSxF“ wird betreten
+        Building C object CMakeFiles/cmTC_5eaeb.dir/CheckSymbolExists.c.o
+        /usr/bin/cc  -I/usr/include/GL  -o CMakeFiles/cmTC_5eaeb.dir/CheckSymbolExists.c.o -c /home/et/gosrc/go-fltk/fltk_build/build/CMakeFiles/CMakeScratch/TryCompile-G6YSxF/CheckSymbolExists.c
+        Linking C executable cmTC_5eaeb
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5eaeb.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_5eaeb.dir/CheckSymbolExists.c.o -o cmTC_5eaeb  -L/usr/lib -L/usr/lib -lX11 -lGLU -lGL
+        make[1]: Verzeichnis „/home/et/Dropbox/Source/go/src/go-fltk/fltk_build/build/CMakeFiles/CMakeScratch/TryCompile-G6YSxF“ wird verlassen
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "/usr/share/cmake/Modules/CheckCSourceCompiles.cmake:58 (cmake_check_source_compiles)"
+      - "/usr/share/cmake/Modules/FindThreads.cmake:97 (CHECK_C_SOURCE_COMPILES)"
+      - "/usr/share/cmake/Modules/FindThreads.cmake:163 (_threads_check_libc)"
+      - "CMake/options.cmake:746 (include)"
+      - "CMakeLists.txt:78 (include)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "/home/et/gosrc/go-fltk/fltk_build/build/CMakeFiles/CMakeScratch/TryCompile-Hpmyg8"
+      binary: "/home/et/gosrc/go-fltk/fltk_build/build/CMakeFiles/CMakeScratch/TryCompile-Hpmyg8"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/et/gosrc/go-fltk/fltk_build/fltk/CMake"
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: '/home/et/gosrc/go-fltk/fltk_build/build/CMakeFiles/CMakeScratch/TryCompile-Hpmyg8'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_533c5/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_533c5.dir/build.make CMakeFiles/cmTC_533c5.dir/build
+        make[1]: Verzeichnis „/home/et/Dropbox/Source/go/src/go-fltk/fltk_build/build/CMakeFiles/CMakeScratch/TryCompile-Hpmyg8“ wird betreten
+        Building C object CMakeFiles/cmTC_533c5.dir/src.c.o
+        /usr/bin/cc -DCMAKE_HAVE_LIBC_PTHREAD -I/usr/include/GL  -o CMakeFiles/cmTC_533c5.dir/src.c.o -c /home/et/gosrc/go-fltk/fltk_build/build/CMakeFiles/CMakeScratch/TryCompile-Hpmyg8/src.c
+        Linking C executable cmTC_533c5
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_533c5.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_533c5.dir/src.c.o -o cmTC_533c5
+        make[1]: Verzeichnis „/home/et/Dropbox/Source/go/src/go-fltk/fltk_build/build/CMakeFiles/CMakeScratch/TryCompile-Hpmyg8“ wird verlassen
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "CMake/resources.cmake:149 (try_compile)"
+      - "CMakeLists.txt:73 (include)"
+    directories:
+      source: "/home/et/gosrc/go-fltk/fltk_build/build/CMakeFiles/CMakeTmp"
+      binary: "/home/et/gosrc/go-fltk/fltk_build/build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/et/gosrc/go-fltk/fltk_build/fltk/CMake"
+    buildResult:
+      variable: "HAVE_PTHREAD_MUTEX_RECURSIVE"
+      cached: true
+      stdout: |
+        Change Dir: '/home/et/gosrc/go-fltk/fltk_build/build/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_61b55/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_61b55.dir/build.make CMakeFiles/cmTC_61b55.dir/build
+        make[1]: Verzeichnis „/home/et/Dropbox/Source/go/src/go-fltk/fltk_build/build/CMakeFiles/CMakeTmp“ wird betreten
+        Building C object CMakeFiles/cmTC_61b55.dir/pthread_mutex_recursive.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_61b55.dir/pthread_mutex_recursive.c.o -c /home/et/gosrc/go-fltk/fltk_build/fltk/CMake/pthread_mutex_recursive.c
+        Linking C executable cmTC_61b55
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_61b55.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_61b55.dir/pthread_mutex_recursive.c.o -o cmTC_61b55
+        make[1]: Verzeichnis „/home/et/Dropbox/Source/go/src/go-fltk/fltk_build/build/CMakeFiles/CMakeTmp“ wird verlassen
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "CMake/resources.cmake:149 (try_compile)"
+      - "CMakeLists.txt:73 (include)"
+    directories:
+      source: "/home/et/gosrc/go-fltk/fltk_build/build/CMakeFiles/CMakeTmp"
+      binary: "/home/et/gosrc/go-fltk/fltk_build/build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/et/gosrc/go-fltk/fltk_build/fltk/CMake"
+    buildResult:
+      variable: "HAVE_PTHREAD_MUTEX_RECURSIVE"
+      cached: true
+      stdout: |
+        Change Dir: '/home/et/gosrc/go-fltk/fltk_build/build/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_1ce84/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_1ce84.dir/build.make CMakeFiles/cmTC_1ce84.dir/build
+        make[1]: Verzeichnis „/home/et/Dropbox/Source/go/src/go-fltk/fltk_build/build/CMakeFiles/CMakeTmp“ wird betreten
+        Building C object CMakeFiles/cmTC_1ce84.dir/pthread_mutex_recursive.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_1ce84.dir/pthread_mutex_recursive.c.o -c /home/et/gosrc/go-fltk/fltk_build/fltk/CMake/pthread_mutex_recursive.c
+        Linking C executable cmTC_1ce84
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1ce84.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_1ce84.dir/pthread_mutex_recursive.c.o -o cmTC_1ce84
+        make[1]: Verzeichnis „/home/et/Dropbox/Source/go/src/go-fltk/fltk_build/build/CMakeFiles/CMakeTmp“ wird verlassen
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineSystem.cmake:205 (message)"
+      - "CMakeLists.txt:39 (project)"
+    message: |
+      The system is: Linux - 6.13.4-arch1-1 - x86_64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:39 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: /usr/bin/cc 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+      
+      The C compiler identification is GNU, found in:
+        /home/et/gosrc/go-fltk/fltk_build/build/CMakeFiles/3.31.6/CompilerIdC/a.out
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:39 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: /usr/bin/c++ 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+      
+      The CXX compiler identification is GNU, found in:
+        /home/et/gosrc/go-fltk/fltk_build/build/CMakeFiles/3.31.6/CompilerIdCXX/a.out
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "/usr/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:39 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "/home/et/gosrc/go-fltk/fltk_build/build/CMakeFiles/CMakeScratch/TryCompile-ar4dpR"
+      binary: "/home/et/gosrc/go-fltk/fltk_build/build/CMakeFiles/CMakeScratch/TryCompile-ar4dpR"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/home/et/gosrc/go-fltk/fltk_build/build/CMakeFiles/CMakeScratch/TryCompile-ar4dpR'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_28e22/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_28e22.dir/build.make CMakeFiles/cmTC_28e22.dir/build
+        make[1]: Entering directory '/home/et/Dropbox/Source/go/src/go-fltk/fltk_build/build/CMakeFiles/CMakeScratch/TryCompile-ar4dpR'
+        Building C object CMakeFiles/cmTC_28e22.dir/CMakeCCompilerABI.c.o
+        /usr/bin/cc   -v -o CMakeFiles/cmTC_28e22.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake/Modules/CMakeCCompilerABI.c
+        Using built-in specs.
+        COLLECT_GCC=/usr/bin/cc
+        Target: x86_64-pc-linux-gnu
+        Configured with: /build/gcc/src/gcc/configure --enable-languages=ada,c,c++,d,fortran,go,lto,m2,objc,obj-c++,rust --enable-bootstrap --prefix=/usr --libdir=/usr/lib --libexecdir=/usr/lib --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=https://gitlab.archlinux.org/archlinux/packaging/packages/gcc/-/issues --with-build-config=bootstrap-lto --with-linker-hash-style=gnu --with-system-zlib --enable-__cxa_atexit --enable-cet=auto --enable-checking=release --enable-clocale=gnu --enable-default-pie --enable-default-ssp --enable-gnu-indirect-function --enable-gnu-unique-object --enable-libstdcxx-backtrace --enable-link-serialization=1 --enable-linker-build-id --enable-lto --enable-multilib --enable-plugin --enable-shared --enable-threads=posix --disable-libssp --disable-libstdcxx-pch --disable-werror
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 14.2.1 20250207 (GCC) 
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_28e22.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_28e22.dir/'
+         /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/cc1 -quiet -v /usr/share/cmake/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_28e22.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -o /tmp/ccWN4TBI.s
+        GNU C17 (GCC) version 14.2.1 20250207 (x86_64-pc-linux-gnu)
+        	compiled by GNU C version 14.2.1 20250207, GMP version 6.3.0, MPFR version 4.2.1, MPC version 1.3.1, isl version isl-0.27-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring nonexistent directory "/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../x86_64-pc-linux-gnu/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include
+         /usr/local/include
+         /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include-fixed
+         /usr/include
+        End of search list.
+        Compiler executable checksum: 26a734649dd11ad41e6b2b442beb07a7
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_28e22.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_28e22.dir/'
+         as -v --64 -o CMakeFiles/cmTC_28e22.dir/CMakeCCompilerABI.c.o /tmp/ccWN4TBI.s
+        GNU assembler version 2.44 (x86_64-pc-linux-gnu) using BFD version (GNU Binutils) 2.44
+        COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/
+        LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_28e22.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_28e22.dir/CMakeCCompilerABI.c.'
+        Linking C executable cmTC_28e22
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_28e22.dir/link.txt --verbose=1
+        Using built-in specs.
+        COLLECT_GCC=/usr/bin/cc
+        COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/lto-wrapper
+        Target: x86_64-pc-linux-gnu
+        Configured with: /build/gcc/src/gcc/configure --enable-languages=ada,c,c++,d,fortran,go,lto,m2,objc,obj-c++,rust --enable-bootstrap --prefix=/usr --libdir=/usr/lib --libexecdir=/usr/lib --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=https://gitlab.archlinux.org/archlinux/packaging/packages/gcc/-/issues --with-build-config=bootstrap-lto --with-linker-hash-style=gnu --with-system-zlib --enable-__cxa_atexit --enable-cet=auto --enable-checking=release --enable-clocale=gnu --enable-default-pie --enable-default-ssp --enable-gnu-indirect-function --enable-gnu-unique-object --enable-libstdcxx-backtrace --enable-link-serialization=1 --enable-linker-build-id --enable-lto --enable-multilib --enable-plugin --enable-shared --enable-threads=posix --disable-libssp --disable-libstdcxx-pch --disable-werror
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 14.2.1 20250207 (GCC) 
+        COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/
+        LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_28e22' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_28e22.'
+         /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccHhp81N.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_28e22 /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../.. -v CMakeFiles/cmTC_28e22.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib/crtn.o
+        collect2 version 14.2.1 20250207
+        /usr/bin/ld -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccHhp81N.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_28e22 /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../.. -v CMakeFiles/cmTC_28e22.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib/crtn.o
+        GNU ld (GNU Binutils) 2.44
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_28e22' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_28e22.'
+        /usr/bin/cc  -v -Wl,-v CMakeFiles/cmTC_28e22.dir/CMakeCCompilerABI.c.o -o cmTC_28e22
+        make[1]: Leaving directory '/home/et/Dropbox/Source/go/src/go-fltk/fltk_build/build/CMakeFiles/CMakeScratch/TryCompile-ar4dpR'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:182 (message)"
+      - "/usr/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:39 (project)"
+    message: |
+      Parsed C implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include]
+          add: [/usr/local/include]
+          add: [/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include-fixed]
+          add: [/usr/include]
+        end of search list found
+        collapse include dir [/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include] ==> [/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include]
+        collapse include dir [/usr/local/include] ==> [/usr/local/include]
+        collapse include dir [/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include-fixed] ==> [/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include-fixed]
+        collapse include dir [/usr/include] ==> [/usr/include]
+        implicit include dirs: [/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include;/usr/local/include;/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include-fixed;/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
+      - "/usr/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:39 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?))("|,| |$)]
+        ignore line: [Change Dir: '/home/et/gosrc/go-fltk/fltk_build/build/CMakeFiles/CMakeScratch/TryCompile-ar4dpR']
+        ignore line: []
+        ignore line: [Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_28e22/fast]
+        ignore line: [/usr/bin/make  -f CMakeFiles/cmTC_28e22.dir/build.make CMakeFiles/cmTC_28e22.dir/build]
+        ignore line: [make[1]: Entering directory '/home/et/Dropbox/Source/go/src/go-fltk/fltk_build/build/CMakeFiles/CMakeScratch/TryCompile-ar4dpR']
+        ignore line: [Building C object CMakeFiles/cmTC_28e22.dir/CMakeCCompilerABI.c.o]
+        ignore line: [/usr/bin/cc   -v -o CMakeFiles/cmTC_28e22.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake/Modules/CMakeCCompilerABI.c]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/usr/bin/cc]
+        ignore line: [Target: x86_64-pc-linux-gnu]
+        ignore line: [Configured with: /build/gcc/src/gcc/configure --enable-languages=ada c c++ d fortran go lto m2 objc obj-c++ rust --enable-bootstrap --prefix=/usr --libdir=/usr/lib --libexecdir=/usr/lib --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=https://gitlab.archlinux.org/archlinux/packaging/packages/gcc/-/issues --with-build-config=bootstrap-lto --with-linker-hash-style=gnu --with-system-zlib --enable-__cxa_atexit --enable-cet=auto --enable-checking=release --enable-clocale=gnu --enable-default-pie --enable-default-ssp --enable-gnu-indirect-function --enable-gnu-unique-object --enable-libstdcxx-backtrace --enable-link-serialization=1 --enable-linker-build-id --enable-lto --enable-multilib --enable-plugin --enable-shared --enable-threads=posix --disable-libssp --disable-libstdcxx-pch --disable-werror]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 14.2.1 20250207 (GCC) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_28e22.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_28e22.dir/']
+        ignore line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/cc1 -quiet -v /usr/share/cmake/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_28e22.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -o /tmp/ccWN4TBI.s]
+        ignore line: [GNU C17 (GCC) version 14.2.1 20250207 (x86_64-pc-linux-gnu)]
+        ignore line: [	compiled by GNU C version 14.2.1 20250207  GMP version 6.3.0  MPFR version 4.2.1  MPC version 1.3.1  isl version isl-0.27-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../x86_64-pc-linux-gnu/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include]
+        ignore line: [ /usr/local/include]
+        ignore line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include-fixed]
+        ignore line: [ /usr/include]
+        ignore line: [End of search list.]
+        ignore line: [Compiler executable checksum: 26a734649dd11ad41e6b2b442beb07a7]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_28e22.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_28e22.dir/']
+        ignore line: [ as -v --64 -o CMakeFiles/cmTC_28e22.dir/CMakeCCompilerABI.c.o /tmp/ccWN4TBI.s]
+        ignore line: [GNU assembler version 2.44 (x86_64-pc-linux-gnu) using BFD version (GNU Binutils) 2.44]
+        ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/]
+        ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_28e22.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_28e22.dir/CMakeCCompilerABI.c.']
+        ignore line: [Linking C executable cmTC_28e22]
+        ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_28e22.dir/link.txt --verbose=1]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/usr/bin/cc]
+        ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/lto-wrapper]
+        ignore line: [Target: x86_64-pc-linux-gnu]
+        ignore line: [Configured with: /build/gcc/src/gcc/configure --enable-languages=ada c c++ d fortran go lto m2 objc obj-c++ rust --enable-bootstrap --prefix=/usr --libdir=/usr/lib --libexecdir=/usr/lib --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=https://gitlab.archlinux.org/archlinux/packaging/packages/gcc/-/issues --with-build-config=bootstrap-lto --with-linker-hash-style=gnu --with-system-zlib --enable-__cxa_atexit --enable-cet=auto --enable-checking=release --enable-clocale=gnu --enable-default-pie --enable-default-ssp --enable-gnu-indirect-function --enable-gnu-unique-object --enable-libstdcxx-backtrace --enable-link-serialization=1 --enable-linker-build-id --enable-lto --enable-multilib --enable-plugin --enable-shared --enable-threads=posix --disable-libssp --disable-libstdcxx-pch --disable-werror]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 14.2.1 20250207 (GCC) ]
+        ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/]
+        ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_28e22' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_28e22.']
+        link line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccHhp81N.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_28e22 /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../.. -v CMakeFiles/cmTC_28e22.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib/crtn.o]
+          arg [/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/collect2] ==> ignore
+          arg [-plugin] ==> ignore
+          arg [/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/liblto_plugin.so] ==> ignore
+          arg [-plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/lto-wrapper] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/ccHhp81N.res] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [--build-id] ==> ignore
+          arg [--eh-frame-hdr] ==> ignore
+          arg [--hash-style=gnu] ==> ignore
+          arg [-m] ==> ignore
+          arg [elf_x86_64] ==> ignore
+          arg [-dynamic-linker] ==> ignore
+          arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+          arg [-pie] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_28e22] ==> ignore
+          arg [/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib/Scrt1.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib/Scrt1.o]
+          arg [/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib/crti.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib/crti.o]
+          arg [/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/crtbeginS.o]
+          arg [-L/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1] ==> dir [/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1]
+          arg [-L/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib]
+          arg [-L/lib/../lib] ==> dir [/lib/../lib]
+          arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+          arg [-L/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../..] ==> dir [/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../..]
+          arg [-v] ==> ignore
+          arg [CMakeFiles/cmTC_28e22.dir/CMakeCCompilerABI.c.o] ==> ignore
+          arg [-lgcc] ==> lib [gcc]
+          arg [--push-state] ==> ignore
+          arg [--as-needed] ==> ignore
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [--pop-state] ==> ignore
+          arg [-lc] ==> lib [c]
+          arg [-lgcc] ==> lib [gcc]
+          arg [--push-state] ==> ignore
+          arg [--as-needed] ==> ignore
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [--pop-state] ==> ignore
+          arg [/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/crtendS.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/crtendS.o]
+          arg [/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib/crtn.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib/crtn.o]
+        ignore line: [collect2 version 14.2.1 20250207]
+        ignore line: [/usr/bin/ld -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccHhp81N.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_28e22 /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../.. -v CMakeFiles/cmTC_28e22.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib/crtn.o]
+        linker tool for 'C': /usr/bin/ld
+        collapse obj [/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib/Scrt1.o] ==> [/usr/lib/Scrt1.o]
+        collapse obj [/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib/crti.o] ==> [/usr/lib/crti.o]
+        collapse obj [/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib/crtn.o] ==> [/usr/lib/crtn.o]
+        collapse library dir [/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1] ==> [/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1]
+        collapse library dir [/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib] ==> [/usr/lib]
+        collapse library dir [/lib/../lib] ==> [/lib]
+        collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+        collapse library dir [/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../..] ==> [/usr/lib]
+        implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
+        implicit objs: [/usr/lib/Scrt1.o;/usr/lib/crti.o;/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/crtbeginS.o;/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/crtendS.o;/usr/lib/crtn.o]
+        implicit dirs: [/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1;/usr/lib;/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
+      - "/usr/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:39 (project)"
+    message: |
+      Running the C compiler's linker: "/usr/bin/ld" "-v"
+      GNU ld (GNU Binutils) 2.44
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "/usr/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:39 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "/home/et/gosrc/go-fltk/fltk_build/build/CMakeFiles/CMakeScratch/TryCompile-YLX5Ti"
+      binary: "/home/et/gosrc/go-fltk/fltk_build/build/CMakeFiles/CMakeScratch/TryCompile-YLX5Ti"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/home/et/gosrc/go-fltk/fltk_build/build/CMakeFiles/CMakeScratch/TryCompile-YLX5Ti'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_781db/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_781db.dir/build.make CMakeFiles/cmTC_781db.dir/build
+        make[1]: Entering directory '/home/et/Dropbox/Source/go/src/go-fltk/fltk_build/build/CMakeFiles/CMakeScratch/TryCompile-YLX5Ti'
+        Building CXX object CMakeFiles/cmTC_781db.dir/CMakeCXXCompilerABI.cpp.o
+        /usr/bin/c++   -v -o CMakeFiles/cmTC_781db.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+        Using built-in specs.
+        COLLECT_GCC=/usr/bin/c++
+        Target: x86_64-pc-linux-gnu
+        Configured with: /build/gcc/src/gcc/configure --enable-languages=ada,c,c++,d,fortran,go,lto,m2,objc,obj-c++,rust --enable-bootstrap --prefix=/usr --libdir=/usr/lib --libexecdir=/usr/lib --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=https://gitlab.archlinux.org/archlinux/packaging/packages/gcc/-/issues --with-build-config=bootstrap-lto --with-linker-hash-style=gnu --with-system-zlib --enable-__cxa_atexit --enable-cet=auto --enable-checking=release --enable-clocale=gnu --enable-default-pie --enable-default-ssp --enable-gnu-indirect-function --enable-gnu-unique-object --enable-libstdcxx-backtrace --enable-link-serialization=1 --enable-linker-build-id --enable-lto --enable-multilib --enable-plugin --enable-shared --enable-threads=posix --disable-libssp --disable-libstdcxx-pch --disable-werror
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 14.2.1 20250207 (GCC) 
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_781db.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_781db.dir/'
+         /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/cc1plus -quiet -v -D_GNU_SOURCE /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_781db.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -o /tmp/cclwAjmQ.s
+        GNU C++17 (GCC) version 14.2.1 20250207 (x86_64-pc-linux-gnu)
+        	compiled by GNU C version 14.2.1 20250207, GMP version 6.3.0, MPFR version 4.2.1, MPC version 1.3.1, isl version isl-0.27-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring nonexistent directory "/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../x86_64-pc-linux-gnu/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../include/c++/14.2.1
+         /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../include/c++/14.2.1/x86_64-pc-linux-gnu
+         /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../include/c++/14.2.1/backward
+         /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include
+         /usr/local/include
+         /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include-fixed
+         /usr/include
+        End of search list.
+        Compiler executable checksum: bbdc9fcb26e32fbe61551147f27ba644
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_781db.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_781db.dir/'
+         as -v --64 -o CMakeFiles/cmTC_781db.dir/CMakeCXXCompilerABI.cpp.o /tmp/cclwAjmQ.s
+        GNU assembler version 2.44 (x86_64-pc-linux-gnu) using BFD version (GNU Binutils) 2.44
+        COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/
+        LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_781db.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_781db.dir/CMakeCXXCompilerABI.cpp.'
+        Linking CXX executable cmTC_781db
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_781db.dir/link.txt --verbose=1
+        Using built-in specs.
+        COLLECT_GCC=/usr/bin/c++
+        COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/lto-wrapper
+        Target: x86_64-pc-linux-gnu
+        Configured with: /build/gcc/src/gcc/configure --enable-languages=ada,c,c++,d,fortran,go,lto,m2,objc,obj-c++,rust --enable-bootstrap --prefix=/usr --libdir=/usr/lib --libexecdir=/usr/lib --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=https://gitlab.archlinux.org/archlinux/packaging/packages/gcc/-/issues --with-build-config=bootstrap-lto --with-linker-hash-style=gnu --with-system-zlib --enable-__cxa_atexit --enable-cet=auto --enable-checking=release --enable-clocale=gnu --enable-default-pie --enable-default-ssp --enable-gnu-indirect-function --enable-gnu-unique-object --enable-libstdcxx-backtrace --enable-link-serialization=1 --enable-linker-build-id --enable-lto --enable-multilib --enable-plugin --enable-shared --enable-threads=posix --disable-libssp --disable-libstdcxx-pch --disable-werror
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 14.2.1 20250207 (GCC) 
+        COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/
+        LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_781db' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_781db.'
+         /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccBO9W66.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_781db /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../.. -v CMakeFiles/cmTC_781db.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib/crtn.o
+        collect2 version 14.2.1 20250207
+        /usr/bin/ld -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccBO9W66.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_781db /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../.. -v CMakeFiles/cmTC_781db.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib/crtn.o
+        GNU ld (GNU Binutils) 2.44
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_781db' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_781db.'
+        /usr/bin/c++  -v -Wl,-v CMakeFiles/cmTC_781db.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_781db
+        make[1]: Leaving directory '/home/et/Dropbox/Source/go/src/go-fltk/fltk_build/build/CMakeFiles/CMakeScratch/TryCompile-YLX5Ti'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:182 (message)"
+      - "/usr/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:39 (project)"
+    message: |
+      Parsed CXX implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../include/c++/14.2.1]
+          add: [/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../include/c++/14.2.1/x86_64-pc-linux-gnu]
+          add: [/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../include/c++/14.2.1/backward]
+          add: [/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include]
+          add: [/usr/local/include]
+          add: [/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include-fixed]
+          add: [/usr/include]
+        end of search list found
+        collapse include dir [/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../include/c++/14.2.1] ==> [/usr/include/c++/14.2.1]
+        collapse include dir [/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../include/c++/14.2.1/x86_64-pc-linux-gnu] ==> [/usr/include/c++/14.2.1/x86_64-pc-linux-gnu]
+        collapse include dir [/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../include/c++/14.2.1/backward] ==> [/usr/include/c++/14.2.1/backward]
+        collapse include dir [/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include] ==> [/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include]
+        collapse include dir [/usr/local/include] ==> [/usr/local/include]
+        collapse include dir [/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include-fixed] ==> [/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include-fixed]
+        collapse include dir [/usr/include] ==> [/usr/include]
+        implicit include dirs: [/usr/include/c++/14.2.1;/usr/include/c++/14.2.1/x86_64-pc-linux-gnu;/usr/include/c++/14.2.1/backward;/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include;/usr/local/include;/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include-fixed;/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
+      - "/usr/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:39 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?))("|,| |$)]
+        ignore line: [Change Dir: '/home/et/gosrc/go-fltk/fltk_build/build/CMakeFiles/CMakeScratch/TryCompile-YLX5Ti']
+        ignore line: []
+        ignore line: [Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_781db/fast]
+        ignore line: [/usr/bin/make  -f CMakeFiles/cmTC_781db.dir/build.make CMakeFiles/cmTC_781db.dir/build]
+        ignore line: [make[1]: Entering directory '/home/et/Dropbox/Source/go/src/go-fltk/fltk_build/build/CMakeFiles/CMakeScratch/TryCompile-YLX5Ti']
+        ignore line: [Building CXX object CMakeFiles/cmTC_781db.dir/CMakeCXXCompilerABI.cpp.o]
+        ignore line: [/usr/bin/c++   -v -o CMakeFiles/cmTC_781db.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/usr/bin/c++]
+        ignore line: [Target: x86_64-pc-linux-gnu]
+        ignore line: [Configured with: /build/gcc/src/gcc/configure --enable-languages=ada c c++ d fortran go lto m2 objc obj-c++ rust --enable-bootstrap --prefix=/usr --libdir=/usr/lib --libexecdir=/usr/lib --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=https://gitlab.archlinux.org/archlinux/packaging/packages/gcc/-/issues --with-build-config=bootstrap-lto --with-linker-hash-style=gnu --with-system-zlib --enable-__cxa_atexit --enable-cet=auto --enable-checking=release --enable-clocale=gnu --enable-default-pie --enable-default-ssp --enable-gnu-indirect-function --enable-gnu-unique-object --enable-libstdcxx-backtrace --enable-link-serialization=1 --enable-linker-build-id --enable-lto --enable-multilib --enable-plugin --enable-shared --enable-threads=posix --disable-libssp --disable-libstdcxx-pch --disable-werror]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 14.2.1 20250207 (GCC) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_781db.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_781db.dir/']
+        ignore line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/cc1plus -quiet -v -D_GNU_SOURCE /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_781db.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -o /tmp/cclwAjmQ.s]
+        ignore line: [GNU C++17 (GCC) version 14.2.1 20250207 (x86_64-pc-linux-gnu)]
+        ignore line: [	compiled by GNU C version 14.2.1 20250207  GMP version 6.3.0  MPFR version 4.2.1  MPC version 1.3.1  isl version isl-0.27-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../x86_64-pc-linux-gnu/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../include/c++/14.2.1]
+        ignore line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../include/c++/14.2.1/x86_64-pc-linux-gnu]
+        ignore line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../include/c++/14.2.1/backward]
+        ignore line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include]
+        ignore line: [ /usr/local/include]
+        ignore line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include-fixed]
+        ignore line: [ /usr/include]
+        ignore line: [End of search list.]
+        ignore line: [Compiler executable checksum: bbdc9fcb26e32fbe61551147f27ba644]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_781db.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_781db.dir/']
+        ignore line: [ as -v --64 -o CMakeFiles/cmTC_781db.dir/CMakeCXXCompilerABI.cpp.o /tmp/cclwAjmQ.s]
+        ignore line: [GNU assembler version 2.44 (x86_64-pc-linux-gnu) using BFD version (GNU Binutils) 2.44]
+        ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/]
+        ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_781db.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_781db.dir/CMakeCXXCompilerABI.cpp.']
+        ignore line: [Linking CXX executable cmTC_781db]
+        ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_781db.dir/link.txt --verbose=1]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/usr/bin/c++]
+        ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/lto-wrapper]
+        ignore line: [Target: x86_64-pc-linux-gnu]
+        ignore line: [Configured with: /build/gcc/src/gcc/configure --enable-languages=ada c c++ d fortran go lto m2 objc obj-c++ rust --enable-bootstrap --prefix=/usr --libdir=/usr/lib --libexecdir=/usr/lib --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=https://gitlab.archlinux.org/archlinux/packaging/packages/gcc/-/issues --with-build-config=bootstrap-lto --with-linker-hash-style=gnu --with-system-zlib --enable-__cxa_atexit --enable-cet=auto --enable-checking=release --enable-clocale=gnu --enable-default-pie --enable-default-ssp --enable-gnu-indirect-function --enable-gnu-unique-object --enable-libstdcxx-backtrace --enable-link-serialization=1 --enable-linker-build-id --enable-lto --enable-multilib --enable-plugin --enable-shared --enable-threads=posix --disable-libssp --disable-libstdcxx-pch --disable-werror]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 14.2.1 20250207 (GCC) ]
+        ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/]
+        ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_781db' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_781db.']
+        link line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccBO9W66.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_781db /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../.. -v CMakeFiles/cmTC_781db.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib/crtn.o]
+          arg [/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/collect2] ==> ignore
+          arg [-plugin] ==> ignore
+          arg [/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/liblto_plugin.so] ==> ignore
+          arg [-plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/lto-wrapper] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/ccBO9W66.res] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [--build-id] ==> ignore
+          arg [--eh-frame-hdr] ==> ignore
+          arg [--hash-style=gnu] ==> ignore
+          arg [-m] ==> ignore
+          arg [elf_x86_64] ==> ignore
+          arg [-dynamic-linker] ==> ignore
+          arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+          arg [-pie] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_781db] ==> ignore
+          arg [/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib/Scrt1.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib/Scrt1.o]
+          arg [/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib/crti.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib/crti.o]
+          arg [/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/crtbeginS.o]
+          arg [-L/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1] ==> dir [/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1]
+          arg [-L/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib]
+          arg [-L/lib/../lib] ==> dir [/lib/../lib]
+          arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+          arg [-L/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../..] ==> dir [/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../..]
+          arg [-v] ==> ignore
+          arg [CMakeFiles/cmTC_781db.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [-lstdc++] ==> lib [stdc++]
+          arg [-lm] ==> lib [m]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lc] ==> lib [c]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/crtendS.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/crtendS.o]
+          arg [/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib/crtn.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib/crtn.o]
+        ignore line: [collect2 version 14.2.1 20250207]
+        ignore line: [/usr/bin/ld -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccBO9W66.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_781db /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../.. -v CMakeFiles/cmTC_781db.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib/crtn.o]
+        linker tool for 'CXX': /usr/bin/ld
+        collapse obj [/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib/Scrt1.o] ==> [/usr/lib/Scrt1.o]
+        collapse obj [/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib/crti.o] ==> [/usr/lib/crti.o]
+        collapse obj [/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib/crtn.o] ==> [/usr/lib/crtn.o]
+        collapse library dir [/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1] ==> [/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1]
+        collapse library dir [/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib] ==> [/usr/lib]
+        collapse library dir [/lib/../lib] ==> [/lib]
+        collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+        collapse library dir [/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../..] ==> [/usr/lib]
+        implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+        implicit objs: [/usr/lib/Scrt1.o;/usr/lib/crti.o;/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/crtbeginS.o;/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/crtendS.o;/usr/lib/crtn.o]
+        implicit dirs: [/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1;/usr/lib;/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
+      - "/usr/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:39 (project)"
+    message: |
+      Running the CXX compiler's linker: "/usr/bin/ld" "-v"
+      GNU ld (GNU Binutils) 2.44
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "CMake/resources.cmake:149 (try_compile)"
+      - "CMakeLists.txt:73 (include)"
+    directories:
+      source: "/home/et/gosrc/go-fltk/fltk_build/build/CMakeFiles/CMakeTmp"
+      binary: "/home/et/gosrc/go-fltk/fltk_build/build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/et/gosrc/go-fltk/fltk_build/fltk/CMake"
+    buildResult:
+      variable: "HAVE_PTHREAD_MUTEX_RECURSIVE"
+      cached: true
+      stdout: |
+        Change Dir: '/home/et/gosrc/go-fltk/fltk_build/build/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_0b024/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_0b024.dir/build.make CMakeFiles/cmTC_0b024.dir/build
+        make[1]: Verzeichnis „/home/et/Dropbox/Source/go/src/go-fltk/fltk_build/build/CMakeFiles/CMakeTmp“ wird betreten
+        Building C object CMakeFiles/cmTC_0b024.dir/pthread_mutex_recursive.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_0b024.dir/pthread_mutex_recursive.c.o -c /home/et/gosrc/go-fltk/fltk_build/fltk/CMake/pthread_mutex_recursive.c
+        Linking C executable cmTC_0b024
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0b024.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_0b024.dir/pthread_mutex_recursive.c.o -o cmTC_0b024
+        make[1]: Verzeichnis „/home/et/Dropbox/Source/go/src/go-fltk/fltk_build/build/CMakeFiles/CMakeTmp“ wird verlassen
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "CMake/resources.cmake:149 (try_compile)"
+      - "CMakeLists.txt:73 (include)"
+    directories:
+      source: "/home/et/gosrc/go-fltk/fltk_build/build/CMakeFiles/CMakeTmp"
+      binary: "/home/et/gosrc/go-fltk/fltk_build/build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/et/gosrc/go-fltk/fltk_build/fltk/CMake"
+    buildResult:
+      variable: "HAVE_PTHREAD_MUTEX_RECURSIVE"
+      cached: true
+      stdout: |
+        Change Dir: '/home/et/gosrc/go-fltk/fltk_build/build/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_2d995/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_2d995.dir/build.make CMakeFiles/cmTC_2d995.dir/build
+        make[1]: Verzeichnis „/home/et/Dropbox/Source/go/src/go-fltk/fltk_build/build/CMakeFiles/CMakeTmp“ wird betreten
+        Building C object CMakeFiles/cmTC_2d995.dir/pthread_mutex_recursive.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_2d995.dir/pthread_mutex_recursive.c.o -c /home/et/gosrc/go-fltk/fltk_build/fltk/CMake/pthread_mutex_recursive.c
+        Linking C executable cmTC_2d995
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2d995.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_2d995.dir/pthread_mutex_recursive.c.o -o cmTC_2d995
+        make[1]: Verzeichnis „/home/et/Dropbox/Source/go/src/go-fltk/fltk_build/build/CMakeFiles/CMakeTmp“ wird verlassen
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "CMake/resources.cmake:149 (try_compile)"
+      - "CMakeLists.txt:73 (include)"
+    directories:
+      source: "/home/et/gosrc/go-fltk/fltk_build/build/CMakeFiles/CMakeTmp"
+      binary: "/home/et/gosrc/go-fltk/fltk_build/build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/et/gosrc/go-fltk/fltk_build/fltk/CMake"
+    buildResult:
+      variable: "HAVE_PTHREAD_MUTEX_RECURSIVE"
+      cached: true
+      stdout: |
+        Change Dir: '/home/et/gosrc/go-fltk/fltk_build/build/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_f2381/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_f2381.dir/build.make CMakeFiles/cmTC_f2381.dir/build
+        make[1]: Verzeichnis „/home/et/Dropbox/Source/go/src/go-fltk/fltk_build/build/CMakeFiles/CMakeTmp“ wird betreten
+        Building C object CMakeFiles/cmTC_f2381.dir/pthread_mutex_recursive.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_f2381.dir/pthread_mutex_recursive.c.o -c /home/et/gosrc/go-fltk/fltk_build/fltk/CMake/pthread_mutex_recursive.c
+        Linking C executable cmTC_f2381
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f2381.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_f2381.dir/pthread_mutex_recursive.c.o -o cmTC_f2381
+        make[1]: Verzeichnis „/home/et/Dropbox/Source/go/src/go-fltk/fltk_build/build/CMakeFiles/CMakeTmp“ wird verlassen
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "CMake/resources.cmake:149 (try_compile)"
+      - "CMakeLists.txt:73 (include)"
+    directories:
+      source: "/home/et/gosrc/go-fltk/fltk_build/build/CMakeFiles/CMakeTmp"
+      binary: "/home/et/gosrc/go-fltk/fltk_build/build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/et/gosrc/go-fltk/fltk_build/fltk/CMake"
+    buildResult:
+      variable: "HAVE_PTHREAD_MUTEX_RECURSIVE"
+      cached: true
+      stdout: |
+        Change Dir: '/home/et/gosrc/go-fltk/fltk_build/build/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_01d0e/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_01d0e.dir/build.make CMakeFiles/cmTC_01d0e.dir/build
+        make[1]: Verzeichnis „/home/et/Dropbox/Source/go/src/go-fltk/fltk_build/build/CMakeFiles/CMakeTmp“ wird betreten
+        Building C object CMakeFiles/cmTC_01d0e.dir/pthread_mutex_recursive.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_01d0e.dir/pthread_mutex_recursive.c.o -c /home/et/gosrc/go-fltk/fltk_build/fltk/CMake/pthread_mutex_recursive.c
+        Linking C executable cmTC_01d0e
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_01d0e.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_01d0e.dir/pthread_mutex_recursive.c.o -o cmTC_01d0e
+        make[1]: Verzeichnis „/home/et/Dropbox/Source/go/src/go-fltk/fltk_build/build/CMakeFiles/CMakeTmp“ wird verlassen
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "CMake/resources.cmake:149 (try_compile)"
+      - "CMakeLists.txt:73 (include)"
+    directories:
+      source: "/home/et/gosrc/go-fltk/fltk_build/build/CMakeFiles/CMakeTmp"
+      binary: "/home/et/gosrc/go-fltk/fltk_build/build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/et/gosrc/go-fltk/fltk_build/fltk/CMake"
+    buildResult:
+      variable: "HAVE_PTHREAD_MUTEX_RECURSIVE"
+      cached: true
+      stdout: |
+        Change Dir: '/home/et/gosrc/go-fltk/fltk_build/build/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_4b595/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_4b595.dir/build.make CMakeFiles/cmTC_4b595.dir/build
+        make[1]: Verzeichnis „/home/et/Dropbox/Source/go/src/go-fltk/fltk_build/build/CMakeFiles/CMakeTmp“ wird betreten
+        Building C object CMakeFiles/cmTC_4b595.dir/pthread_mutex_recursive.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_4b595.dir/pthread_mutex_recursive.c.o -c /home/et/gosrc/go-fltk/fltk_build/fltk/CMake/pthread_mutex_recursive.c
+        Linking C executable cmTC_4b595
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4b595.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_4b595.dir/pthread_mutex_recursive.c.o -o cmTC_4b595
+        make[1]: Verzeichnis „/home/et/Dropbox/Source/go/src/go-fltk/fltk_build/build/CMakeFiles/CMakeTmp“ wird verlassen
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "CMake/resources.cmake:149 (try_compile)"
+      - "CMakeLists.txt:73 (include)"
+    directories:
+      source: "/home/et/gosrc/go-fltk/fltk_build/build/CMakeFiles/CMakeTmp"
+      binary: "/home/et/gosrc/go-fltk/fltk_build/build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/et/gosrc/go-fltk/fltk_build/fltk/CMake"
+    buildResult:
+      variable: "HAVE_PTHREAD_MUTEX_RECURSIVE"
+      cached: true
+      stdout: |
+        Change Dir: '/home/et/gosrc/go-fltk/fltk_build/build/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_e3c19/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_e3c19.dir/build.make CMakeFiles/cmTC_e3c19.dir/build
+        make[1]: Verzeichnis „/home/et/Dropbox/Source/go/src/go-fltk/fltk_build/build/CMakeFiles/CMakeTmp“ wird betreten
+        Building C object CMakeFiles/cmTC_e3c19.dir/pthread_mutex_recursive.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_e3c19.dir/pthread_mutex_recursive.c.o -c /home/et/gosrc/go-fltk/fltk_build/fltk/CMake/pthread_mutex_recursive.c
+        Linking C executable cmTC_e3c19
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e3c19.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_e3c19.dir/pthread_mutex_recursive.c.o -o cmTC_e3c19
+        make[1]: Verzeichnis „/home/et/Dropbox/Source/go/src/go-fltk/fltk_build/build/CMakeFiles/CMakeTmp“ wird verlassen
+        
+      exitCode: 0
+...

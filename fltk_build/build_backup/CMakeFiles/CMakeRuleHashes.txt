@@ -1,0 +1,6 @@
+# Hashes of file build rules.
+11da04eddcd00add212d7ceb9f25b879 CMakeFiles/uninstall
+c581f4c36dd94528f6795ab7bda2fe8e src/gtk-shell-protocol.c
+c1db98d8c5a4285332ec9a78e504f717 src/text-input-protocol.c
+e5dd82d598710733d167099783d4eabf src/xdg-decoration-protocol.c
+c7c7bf60df883a8b17e96316cfb6b384 src/xdg-shell-protocol.c

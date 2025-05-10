@@ -66,7 +66,8 @@ func main() {
 	if errors.Is(err, fs.ErrNotExist) {
 		fmt.Println("Cloning FLTK repository")
 
-		cloneCmd := exec.Command("git", "clone", "https://github.com/fltk/fltk.git")
+		//cloneCmd := exec.Command("git", "clone", "https://github.com/fltk/fltk.git")
+		cloneCmd := exec.Command("git", "clone", "https://github.com/fltk/fltk.git", "-b", "release-1.4.1")
 		cloneCmd.Dir = "fltk_build"
 		cloneCmd.Stdout = os.Stdout
 		cloneCmd.Stderr = os.Stderr
@@ -101,14 +102,16 @@ func main() {
 		os.Exit(1)
 	}
 
-	checkoutCmd := exec.Command("git", "checkout", commit)
-	checkoutCmd.Dir = fltkSourceDir
-	checkoutCmd.Stdout = os.Stdout
-	checkoutCmd.Stderr = os.Stderr
-	if err := checkoutCmd.Run(); err != nil {
-		fmt.Printf("Error checking out FLTK source")
-		os.Exit(1)
-	}
+	// Nicht eine bestimmte Version auschecken, sondern auf release-1.4.1 bleiben
+	
+	//checkoutCmd := exec.Command("git", "checkout", commit)
+	//checkoutCmd.Dir = fltkSourceDir
+	//checkoutCmd.Stdout = os.Stdout
+	//checkoutCmd.Stderr = os.Stderr
+	//if err := checkoutCmd.Run(); err != nil {
+		//fmt.Printf("Error checking out FLTK source")
+		//os.Exit(1)
+	//}
 
 	if runtime.GOOS == "windows" {
 		applyCmd := exec.Command("git", "apply", "../../lib/fltk-1.4.patch")
